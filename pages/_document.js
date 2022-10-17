@@ -8,7 +8,7 @@ export default function Document() {
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
-          crossorigin={true}
+          crossOrigin={true}
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap"
@@ -18,8 +18,12 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
           rel="stylesheet"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap"
+          rel="stylesheet"
+        />
       </Head>
-      <body>
+      <body className="min-w-[320px] font-lato">
         <Main />
         <NextScript />
       </body>
