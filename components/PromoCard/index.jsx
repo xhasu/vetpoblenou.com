@@ -6,7 +6,7 @@ const PromoCard = () => {
       <div>
         <Media />
       </div>
-      <div className="p-4 lg:py-8 lg:px-16 flex items-center">
+      <div className="py-4 lg:py-8 px-0 sm:px-4 lg:px-16 flex items-center">
         <Body />
       </div>
     </div>
