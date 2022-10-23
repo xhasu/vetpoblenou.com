@@ -8,6 +8,9 @@ module.exports = {
       padding: "1rem",
     },
     extend: {
+      screens: {
+        "2xl": "1656px",
+      },
       fontFamily: {
         wulkan: ["Bitter", "serif"],
         circular: ["Montserrat", "sans-serif"],

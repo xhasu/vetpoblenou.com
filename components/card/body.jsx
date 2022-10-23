@@ -3,8 +3,8 @@ import { IconArrowLongRight } from "components/shared/Icons";
 const CardBody = () => {
   return (
     <div>
-      <div className="flex gap-2 md:gap-4 items-center flex-wrap mb-4 lg:mb-12 text-alter text-sm md:text-lg">
-        <div className="rounded-full w-8 md:w-16 h-8 md:h-16 overflow-hidden bg-neutral-600"></div>
+      <div className="flex gap-2 items-center flex-wrap mb-4 lg:mb-8 text-alter text-sm md:text-lg">
+        <div className="rounded-full w-8 md:w-12 h-8 md:h-12 overflow-hidden bg-neutral-600"></div>
         <div>Dianne Russell</div>
         <span>&middot;</span>
         <div>October 17,2021</div>
