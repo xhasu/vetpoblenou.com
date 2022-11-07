@@ -2,6 +2,7 @@ import PromoNews from "components/PromoNews";
 import { Description, Headline } from "components/shared/headlines";
 import PromoBanner from "components/shared/PromoBanner";
 import Reservation from "components/Reservation";
+import { DecorRight } from "components/shared/Decorations";
 
 const HomePage = () => {
   return (
@@ -64,6 +65,7 @@ const HomePage = () => {
         </div>
       </div>
       <PromoNews />
+      <DecorRight />
       <Reservation />
     </div>
   );

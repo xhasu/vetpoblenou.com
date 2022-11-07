@@ -1,4 +1,4 @@
-import PromoNews from "components/PromoNews";
+import PromoGallery from "components/PromoGallery";
 import Reservation from "components/Reservation";
 import PromoBanner from "components/shared/PromoBanner";
 
@@ -6,8 +6,9 @@ const ServicesPage = () => {
   return (
     <div>
       <PromoBanner type="SERVICES" />
-      <div className="container"></div>
-      <PromoNews />
+      <div className="container">
+        <PromoGallery />
+      </div>
       <Reservation />
     </div>
   );

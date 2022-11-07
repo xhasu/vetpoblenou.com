@@ -6,7 +6,7 @@ const Reservation = () => {
   const date = new Date();
 
   return (
-    <div className="bg-light text-center text-primary">
+    <div className="bg-light bg-opacity-50 text-center text-primary">
       <div className="max-w-[1656px] mx-auto py-20 px-4 lg:px-0">
         <Headline>Pide tu cita</Headline>
         <div className="max-w-5xl mx-auto mb-8 lg:mb-20">
