@@ -9,7 +9,7 @@ module.exports = {
     },
     extend: {
       screens: {
-        "2xl": "1656px",
+        "2xl": "1677px",
       },
       fontFamily: {
         wulkan: ["Bitter", "serif"],
