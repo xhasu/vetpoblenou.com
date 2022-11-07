@@ -5,29 +5,29 @@ import PromoBanner from "components/shared/PromoBanner";
 const AboutPage = () => {
   return (
     <div>
-      <PromoBanner />
-      <div className="container">
-        <div className="grid md:grid-cols-2 gap-4 px-4 mb-20">
+      <PromoBanner type="ABOUT" />
+      <div className="container px-0 lg:px-4">
+        <div className="grid lg:grid-cols-2 gap-4 px-4 mb-20">
           <div className="flex items-center justify-center">
             <div className="text-primary">
               <Headline>¡40 años!</Headline>
             </div>
           </div>
           <div className="text-black">
-            <p className="text-current text-2xl">
+            <p className="text-current text-lg lg:text-2xl">
               Cuarenta años de compromiso y experiencia. Nuestro equipo se
               mantiene en constante formación, al corriente de los nuevos
               avances en medicina veterinaria para ofrecer una atención completa
               y de calidad.
             </p>
             <div className="mb-8"></div>
-            <p className="text-current text-2xl">
+            <p className="text-current text-lg lg:text-2xl">
               En Clínica Veterinaria Poblenou, disponemos de los medios e
               información necesarios para poder atender a vuestros gatos, perros
               o animales exóticos en su día a día.
             </p>
             <div className="mb-8"></div>
-            <p className="text-current text-2xl">
+            <p className="text-current text-lg lg:text-2xl">
               Entendemos nuestro ejercicio profesional como un compromiso con
               vosotros y vuestras mascotas, para mejorar su calidad de vida y
               garantizar su bienestar.
@@ -35,13 +35,13 @@ const AboutPage = () => {
           </div>
         </div>
 
-        <div className="bg-primary p-20">
-          <div className="text-white mb-16">
+        <div className="bg-primary p-4 lg:p-20">
+          <div className="text-white mb-4 md:mb-16">
             <Headline>
               La clínica cuenta con servicios médicos internos y externos:
             </Headline>
           </div>
-          <div className="grid grid-cols-2 gap-16 mb-8">
+          <div className="grid md:grid-cols-2 gap-4 lg:gap-16 mb-8">
             <div>
               <div className="mb-8">
                 <picture>
@@ -52,8 +52,8 @@ const AboutPage = () => {
                 </picture>
               </div>
               <div className="text-white">
-                <h2 className="text-3xl mb-6">ATVs:</h2>
-                <ul className="text-xl mb-4">
+                <h2 className="text-xl lg:text-3xl mb-6">ATVs:</h2>
+                <ul className="lg:text-xl mb-4">
                   <li>— Pili Archelaguet, nuestra primera ATV, desde 1993</li>
                   <li>— Virginia Vidaña, desde 2003</li>
                   <li>— Antonella Sánchez, desde 2021</li>
@@ -62,8 +62,10 @@ const AboutPage = () => {
                   Han asistido a congresos y cursos para seguir formándose y
                   ofrecer la mejor atención a nuestros pacientes.
                 </p>
-                <h2 className="text-3xl mb-12">Veterinarios externos:</h2>
-                <ul className="text-xl mb-4">
+                <h2 className="text-xl lg:text-3xl mb-12">
+                  Veterinarios externos:
+                </h2>
+                <ul className="lg:text-xl mb-4">
                   <li>— Traumatología y ortopedia: JORDI LLOVERA</li>
                   <li>— Ecografía: TXEMA CASTELAR</li>
                   <li>— Endoscopia: ENDOLAP</li>
@@ -82,8 +84,8 @@ const AboutPage = () => {
                 </picture>
               </div>
               <div className="text-white">
-                <h2 className="text-3xl mb-6">Veterinarias:</h2>
-                <ul className="text-xl mb-4 space-y-3">
+                <h2 className="text-xl lg:text-3xl mb-6">Veterinarias:</h2>
+                <ul className="lg:text-xl mb-4 space-y-3">
                   <li>
                     — Mª José Corzán, veterinaria fundadora. Licenciada en
                     Veterinaria por la Universidad de Zaragoza en 1979.

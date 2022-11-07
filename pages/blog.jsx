@@ -4,7 +4,7 @@ import PromoBanner from "components/shared/PromoBanner";
 const BlogPage = () => {
   return (
     <div>
-      <PromoBanner />
+      <PromoBanner type="BLOG" />
       <main className="container">
         <PromoCard />
         <PromoCard />

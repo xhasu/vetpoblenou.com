@@ -5,7 +5,7 @@ import PromoBanner from "components/shared/PromoBanner";
 const ServicesPage = () => {
   return (
     <div>
-      <PromoBanner />
+      <PromoBanner type="SERVICES" />
       <div className="container"></div>
       <PromoNews />
       <Reservation />

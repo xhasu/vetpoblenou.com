@@ -7,9 +7,9 @@ const Reservation = () => {
 
   return (
     <div className="bg-light text-center text-primary">
-      <div className="max-w-[1656px] mx-auto py-20">
+      <div className="max-w-[1656px] mx-auto py-20 px-4 lg:px-0">
         <Headline>Pide tu cita</Headline>
-        <div className="max-w-5xl mx-auto mb-20">
+        <div className="max-w-5xl mx-auto mb-8 lg:mb-20">
           <Description>
             De lunes a viernes de 9 a 14 y de 17 a 20 horas sábados de 10 a 14
             horas Nuestro Centro cierra los días festivos oficiales en Barcelona
@@ -17,7 +17,7 @@ const Reservation = () => {
         </div>
         <div>
           <form method="" noValidate>
-            <div className="flex flex-col md:flex-row gap-4 mb-20">
+            <div className="flex flex-col md:flex-row gap-4 mb-8 lg:mb-20">
               <div className="flex-1">
                 <input
                   className="w-full border border-black h-14 px-4"

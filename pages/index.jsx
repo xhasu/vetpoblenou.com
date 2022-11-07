@@ -6,7 +6,7 @@ import Reservation from "components/Reservation";
 const HomePage = () => {
   return (
     <div>
-      <PromoBanner />
+      <PromoBanner type="HOME" />
       <div className="container">
         <div className="grid md:grid-cols-2 gap-12 px-4 mb-20">
           <div className="text-primary text-left">

@@ -26,7 +26,7 @@ const Footer = () => {
         <span className="hidden md:block h-4 border-r border-white"></span>
         <a
           className="px-4 flex items-center gap-2 mb-2"
-          href="https://www.intagram.com"
+          href="https://www.instagram.com"
           target="_blank"
           rel="noreferrer noopener"
         >
