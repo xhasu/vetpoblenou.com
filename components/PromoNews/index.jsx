@@ -1,5 +1,5 @@
-import MainCard from "components/maincard";
-import { Description, Headline } from "components/shared/headlines";
+import MainCard from "./components/maincard";
+import { Description, Headline } from "./components/shared/headlines";
 
 const PromoNews = () => {
   return (

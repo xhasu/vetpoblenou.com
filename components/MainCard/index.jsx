@@ -1,4 +1,4 @@
-import { Body, Media } from "components/card";
+import { Body, Media } from "./components/card";
 
 const MainCard = () => {
   return (
