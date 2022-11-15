@@ -1,6 +1,6 @@
-import PromoGallery from "components/PromoGallery";
-import Reservation from "components/Reservation";
-import PromoBanner from "components/shared/PromoBanner";
+import PromoGallery from "components/promogallery";
+import Reservation from "components/reservation";
+import PromoBanner from "components/shared/promo-banner";
 
 const ServicesPage = () => {
   return (

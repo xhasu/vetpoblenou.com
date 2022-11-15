@@ -1,4 +1,4 @@
-import MainCard from "components/mainCard";
+import MainCard from "components/maincard";
 import { Description, Headline } from "components/shared/headlines";
 
 const PromoNews = () => {

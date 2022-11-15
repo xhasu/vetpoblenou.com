@@ -1,5 +1,5 @@
-import PromoCard from "components/promoCard";
-import PromoBanner from "components/shared/PromoBanner";
+import PromoCard from "components/promocard";
+import PromoBanner from "components/shared/promo-banner";
 
 const BlogPage = () => {
   return (

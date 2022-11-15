@@ -1,7 +1,7 @@
-import Reservation from "components/Reservation";
-import { DecorLeft } from "components/shared/Decorations";
+import Reservation from "components/reservation";
+import { DecorLeft } from "components/shared/decorations";
 import { Headline } from "components/shared/headlines";
-import PromoBanner from "components/shared/PromoBanner";
+import PromoBanner from "components/shared/promo-banner";
 
 const AboutPage = () => {
   return (

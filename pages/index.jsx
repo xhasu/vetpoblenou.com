@@ -1,8 +1,8 @@
-import PromoNews from "components/PromoNews";
+import PromoNews from "components/promonews";
 import { Description, Headline } from "components/shared/headlines";
-import PromoBanner from "components/shared/PromoBanner";
-import Reservation from "components/Reservation";
-import { DecorRight } from "components/shared/Decorations";
+import PromoBanner from "components/shared/promo-banner";
+import Reservation from "components/reservation";
+import { DecorRight } from "components/shared/decorations";
 
 const HomePage = () => {
   return (
