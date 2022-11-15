@@ -1,4 +1,4 @@
-import { Description, Headline } from "./components/shared/headlines";
+import { Description, Headline } from "components/shared/headlines";
 import React from "react";
 
 const Reservation = () => {

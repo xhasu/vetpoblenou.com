@@ -1,4 +1,4 @@
-import { IconArrowLongRight } from "./components/shared/icons";
+import { IconArrowLongRight } from "components/shared/icons";
 
 const CardBody = () => {
   return (
