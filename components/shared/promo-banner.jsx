@@ -174,14 +174,14 @@ const PromoBanner = ({ type = "HOME" }) => {
 
       <div className="absolute bottom-0 left-0 right-0">
         <div className="container">
-          <div className="max-w-lg lg:max-w-5xl mb-8 lg:mb-12 text-white font-wulkan px-4">
-            <h1 className="text-4xl lg:text-7xl xl:text-9xl leading-none mb-4 lg:mb-12">
+          <div className="max-w-lg lg:max-w-5xl mb-8 lg:mb-12 text-white px-4">
+            <h1 className="text-4xl lg:text-7xl xl:text-9xl font-wulkan font-bold leading-none mb-4 lg:mb-12 ">
               {type === "HOME" && <TitleHome />}
               {type === "ABOUT" && <TitleAbout />}
               {type === "SERVICES" && <TitleServices />}
               {type === "BLOG" && <TitleBlog />}
             </h1>
-            <p className="text-xl lg:text-4xl leading-tight lg:leading-tight mb-4">
+            <p className="text-xl lg:text-4xl font-circular leading-tight lg:leading-tight mb-4">
               {type === "HOME" && <DescriptionHome />}
               {type === "ABOUT" && <DescriptionAbout />}
               {type === "SERVICES" && <DescriptionServices />}

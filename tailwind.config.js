@@ -12,8 +12,8 @@ module.exports = {
         "2xl": "1677px",
       },
       fontFamily: {
-        wulkan: ["Bitter", "serif"],
-        circular: ["Montserrat", "sans-serif"],
+        wulkan: ["Wulkandisplay", "serif"],
+        circular: ["CircularStd", "sans-serif"],
         lato: ["Lato", "sans-serif"],
       },
       colors: {
