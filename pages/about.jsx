@@ -57,7 +57,9 @@ const AboutPage = () => {
                 </picture>
               </div>
               <div className="text-white">
-                <h2 className="text-xl lg:text-3xl mb-6">ATVs:</h2>
+                <h2 className="text-xl lg:text-3xl font-wulkan font-bold mb-6">
+                  ATVs:
+                </h2>
                 <ul className="lg:text-xl mb-4">
                   <li>— Pili Archelaguet, nuestra primera ATV, desde 1993</li>
                   <li>— Virginia Vidaña, desde 2003</li>
@@ -67,7 +69,7 @@ const AboutPage = () => {
                   Han asistido a congresos y cursos para seguir formándose y
                   ofrecer la mejor atención a nuestros pacientes.
                 </p>
-                <h2 className="text-xl lg:text-3xl mb-12">
+                <h2 className="text-xl lg:text-3xl font-wulkan font-bold mb-12">
                   Veterinarios externos:
                 </h2>
                 <ul className="lg:text-xl mb-4">
@@ -86,7 +88,7 @@ const AboutPage = () => {
                 </picture>
               </div>
               <div className="text-white">
-                <h2 className="text-xl lg:text-3xl mb-6">Veterinarias:</h2>
+                <h2 className="text-xl lg:text-3xl font-wulkan font-bold mb-6">Veterinarias:</h2>
                 <ul className="lg:text-xl mb-4 space-y-3">
                   <li>
                     — Mª José Corzán, veterinaria fundadora. Licenciada en
@@ -112,7 +114,7 @@ const AboutPage = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-center gap-4">
+          <div className="flex justify-end gap-4">
             <div>
               <picture>
                 <img src="/images/about-slider-01.jpg" alt="" />
