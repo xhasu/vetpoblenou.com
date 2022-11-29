@@ -8,7 +8,7 @@ const AboutPage = () => {
     <div>
       <PromoBanner type="ABOUT" />
       <div className="container px-0 lg:px-4">
-        <div className="grid lg:grid-cols-2 gap-4 px-4 mb-20">
+        <div className="grid lg:grid-cols-2 gap-4 lg:gap-16 mb-20">
           <div className="flex items-center justify-center">
             <div className="text-primary">
               <Headline>¡40 años!</Headline>
@@ -26,7 +26,7 @@ const AboutPage = () => {
               Sabemos que las mascotas son un miembro más de la familia, y por
               ello, te acompañamos en su cuidado y en la prevención de
               enfermedades y proporcionamos los medios necesarios para
-              atenderlas en su día a día.{" "}
+              atenderlas en su día a día.
             </p>
             <div className="mb-8"></div>
             <p className="text-current text-lg lg:text-2xl">
@@ -53,10 +53,7 @@ const AboutPage = () => {
             <div>
               <div className="mb-8">
                 <picture>
-                  <img
-                    src="https://i.picsum.photos/id/169/800/800.jpg?hmac=SvqupPdAgEL18rNMMbVBN57SJRZHzcQ9Jn4Lrny23ik"
-                    alt=""
-                  />
+                  <img src="/images/about-01.jpg" alt="" />
                 </picture>
               </div>
               <div className="text-white">
@@ -85,10 +82,7 @@ const AboutPage = () => {
             <div>
               <div className="mb-8">
                 <picture>
-                  <img
-                    src="https://i.picsum.photos/id/821/800/680.jpg?hmac=6-JpPWU_a_5X6P7Q4742JpqIxqH-CXLwbwRpGT0CV0g"
-                    alt=""
-                  />
+                  <img src="/images/about-02.jpg" alt="" />
                 </picture>
               </div>
               <div className="text-white">
@@ -118,38 +112,26 @@ const AboutPage = () => {
               </div>
             </div>
           </div>
-          <div className="flex justify-end gap-4">
+          <div className="flex justify-center gap-4">
             <div>
               <picture>
-                <img
-                  src="https://i.picsum.photos/id/760/480/480.jpg?hmac=eV5d1C7DMkvt4EyzHZ70iNh7t8FKMpFW-xZ91dxfOdw"
-                  alt=""
-                />
+                <img src="/images/about-slider-01.jpg" alt="" />
               </picture>
             </div>
             <div>
               <picture>
-                <img
-                  src="https://i.picsum.photos/id/760/480/480.jpg?hmac=eV5d1C7DMkvt4EyzHZ70iNh7t8FKMpFW-xZ91dxfOdw"
-                  alt=""
-                />
+                <img src="/images/about-slider-02.jpg" alt="" />
               </picture>
             </div>
             <div>
               <picture>
-                <img
-                  src="https://i.picsum.photos/id/760/480/480.jpg?hmac=eV5d1C7DMkvt4EyzHZ70iNh7t8FKMpFW-xZ91dxfOdw"
-                  alt=""
-                />
+                <img src="/images/about-slider-03.jpg" alt="" />
               </picture>
             </div>
           </div>
         </div>
         <picture>
-          <img
-            src="https://i.picsum.photos/id/1048/1920/1080.jpg?hmac=fhwrWRD2GaUFdzFdbLAseVVvVeXURGiU8HYQajXG17Q"
-            alt=""
-          />
+          <img src="/images/about-03.jpg" alt="" />
         </picture>
       </div>
       <Reservation />

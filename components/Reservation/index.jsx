@@ -7,7 +7,7 @@ const Reservation = () => {
 
   return (
     <div className="bg-light bg-opacity-50 text-center text-primary">
-      <div className="max-w-[1656px] mx-auto py-20 px-4 lg:px-0">
+      <div className="container py-20">
         <Headline>Pide tu cita</Headline>
         <div className="max-w-5xl mx-auto mb-8 lg:mb-20">
           <Description>
@@ -20,7 +20,7 @@ const Reservation = () => {
             <div className="flex flex-col md:flex-row gap-4 mb-8 lg:mb-20">
               <div className="flex-1">
                 <input
-                  className="w-full border border-black h-14 px-4"
+                  className="w-full border-2 border-black h-14 px-4"
                   type="date"
                   placeholder="Fecha"
                   min={date.toISOString().split("T")[0]}
@@ -30,7 +30,7 @@ const Reservation = () => {
                 <select
                   name=""
                   id=""
-                  className="w-full border border-black h-14 px-4"
+                  className="w-full border-2 border-black h-14 px-4"
                 >
                   <option value="">Franja</option>
                 </select>
@@ -39,7 +39,7 @@ const Reservation = () => {
                 <select
                   name=""
                   id=""
-                  className="w-full border border-black h-14 px-4"
+                  className="w-full border-2 border-black h-14 px-4"
                 >
                   <option value="">Motivo</option>
                 </select>

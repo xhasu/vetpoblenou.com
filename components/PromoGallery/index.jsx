@@ -63,17 +63,17 @@ const PromoGallery = () => {
       <Swiper loop={true}>
         <SwiperSlide>
           <picture>
-            <img src="/images/banner-home.jpg" alt="" />
+            <img src="/images/services-04.jpg" alt="" />
           </picture>
         </SwiperSlide>
         <SwiperSlide>
           <picture>
-            <img src="/images/banner-about.jpg" alt="" />
+            <img src="/images/services-04.jpg" alt="" />
           </picture>
         </SwiperSlide>
         <SwiperSlide>
           <picture>
-            <img src="/images/banner-services.jpg" alt="" />
+            <img src="/images/services-04.jpg" alt="" />
           </picture>
         </SwiperSlide>
         <div className="absolute bottom-0 left-0 right-0 z-10 flex justify-between text-white">

@@ -2,6 +2,50 @@ import Link from "next/link";
 import { useRef } from "react";
 import PropTypes from "prop-types";
 
+const HeadTitle = ({ children, type = "main" }) => {
+  const fontVariants = {
+    main: "text-4xl lg:text-7xl xl:text-10xl",
+    secondary: "text-3xl lg:text-6xl xl:text-8xl",
+  };
+
+  const containerVariants = {
+    main: "max-w-lg lg:max-w-5xl",
+    secondary: "max-w-lg lg:max-w-[1420px]",
+  };
+
+  const fontClasses = fontVariants[type];
+  const containerClasses = containerVariants[type];
+
+  return (
+    <div className={containerClasses}>
+      <h1
+        className={`${fontClasses} font-wulkan font-bold leading-tiny mb-4 lg:mb-12`}
+      >
+        {children}
+      </h1>
+    </div>
+  );
+};
+
+const DescriptionText = ({ children, type = "main" }) => {
+  const fontVariants = {
+    main: "text-xl lg:text-4xl",
+    secondary: "text-lg lg:text-3xl",
+  };
+
+  const fontClasses = fontVariants[type];
+
+  return (
+    <div className="max-w-lg lg:max-w-5xl">
+      <p
+        className={`${fontClasses} font-circular leading-tight lg:leading-tight mb-4`}
+      >
+        {children}
+      </p>
+    </div>
+  );
+};
+
 const BannerHome = () => {
   return (
     <div
@@ -23,7 +67,7 @@ const TitleHome = () => {
 const DescriptionHome = () => {
   return (
     <>
-      Desde Clínica Veterinaria Poblenou, velamos por la salud de tus mascotas
+      En Clínica Veterinaria Poblenou, velamos por la salud de tus mascotas
       ofreciéndoles un cuidado íntegro con proximidad y profesionalidad.
     </>
   );
@@ -98,14 +142,14 @@ const BannerBlog = () => {
 };
 
 const TitleBlog = () => {
-  return <div>Lo que necesitas saber parasu buen cuidado. </div>;
+  return <div>Lo que necesitas saber para su buen cuidado</div>;
 };
 
 const DescriptionBlog = () => {
   return (
     <>
       Información actualizada y contrastada sobre los diferentes aspectos para
-      el cuidado de vuestras mascotas.{" "}
+      el cuidado de vuestras mascotas.
     </>
   );
 };
@@ -118,7 +162,7 @@ const PromoBanner = ({ type = "HOME" }) => {
   };
 
   return (
-    <div className="relative bg-neutral-600 min-h-screen z-0 mb-20">
+    <div className="relative bg-neutral-600 max-h-[1080px] h-screen z-0 mb-20">
       <div className="absolute inset-0 z-0">
         {type === "HOME" && <BannerHome />}
         {type === "ABOUT" && <BannerAbout />}
@@ -128,7 +172,7 @@ const PromoBanner = ({ type = "HOME" }) => {
 
       <div className="absolute inset-0 select-none pointer-events-none bg-gradient-to-b from-transparent to-black opacity-70"></div>
 
-      <div className="absolute top-4 lg:top-12 left-4 lg:left-8 z-10 bg-primary">
+      <div className="absolute top-4 lg:top-12 left-4 lg:left-12 z-10 bg-primary">
         <Link href="/">
           <div className="flex items-center justify-center w-32 lg:w-72 h-32 lg:h-72 p-4 cursor-pointer">
             <picture>
@@ -174,19 +218,47 @@ const PromoBanner = ({ type = "HOME" }) => {
 
       <div className="absolute bottom-0 left-0 right-0">
         <div className="container">
-          <div className="max-w-lg lg:max-w-5xl mb-8 lg:mb-12 text-white px-4">
-            <h1 className="text-4xl lg:text-7xl xl:text-9xl font-wulkan font-bold leading-none mb-4 lg:mb-12 ">
-              {type === "HOME" && <TitleHome />}
-              {type === "ABOUT" && <TitleAbout />}
-              {type === "SERVICES" && <TitleServices />}
-              {type === "BLOG" && <TitleBlog />}
-            </h1>
-            <p className="text-xl lg:text-4xl font-circular leading-tight lg:leading-tight mb-4">
-              {type === "HOME" && <DescriptionHome />}
-              {type === "ABOUT" && <DescriptionAbout />}
-              {type === "SERVICES" && <DescriptionServices />}
-              {type === "BLOG" && <DescriptionBlog />}
-            </p>
+          <div className="mb-8 lg:mb-12 text-white">
+            {type === "HOME" && (
+              <HeadTitle>
+                <TitleHome />
+              </HeadTitle>
+            )}
+            {type === "ABOUT" && (
+              <HeadTitle>
+                <TitleAbout />
+              </HeadTitle>
+            )}
+            {type === "SERVICES" && (
+              <HeadTitle>
+                <TitleServices />
+              </HeadTitle>
+            )}
+            {type === "BLOG" && (
+              <HeadTitle type="secondary">
+                <TitleBlog />
+              </HeadTitle>
+            )}
+            {type === "HOME" && (
+              <DescriptionText>
+                <DescriptionHome />
+              </DescriptionText>
+            )}
+            {type === "ABOUT" && (
+              <DescriptionText>
+                <DescriptionAbout />
+              </DescriptionText>
+            )}
+            {type === "SERVICES" && (
+              <DescriptionText>
+                <DescriptionServices />
+              </DescriptionText>
+            )}
+            {type === "BLOG" && (
+              <DescriptionText type="secondary">
+                <DescriptionBlog />
+              </DescriptionText>
+            )}
           </div>
         </div>
         <div

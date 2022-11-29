@@ -1,6 +1,6 @@
 export const Headline = ({ children }) => {
   return (
-    <h2 className="text-current font-wulkan font-bold text-3xl lg:text-6xl xl:text-8xl mb-6">
+    <h2 className="text-current font-wulkan font-bold text-3xl lg:text-6xl xl:text-8xl xl:leading-compact mb-10">
       {children}
     </h2>
   );

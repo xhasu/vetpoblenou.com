@@ -1,7 +1,7 @@
 /* font CircularStd Medium */
 @font-face {
   font-family: 'CircularStd';
-  src: url('../fonts/CircularStd/CircularStd-Medium.woff2') format('woff2'), url('../fonts/CircularStd/CircularStd-Medium.woff') format('woff');
+  src: url('/fonts/CircularStd/CircularStd-Medium.woff2') format('woff2'), url('/fonts/CircularStd/CircularStd-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -10,7 +10,7 @@
 /* font CircularStd Black */
 @font-face {
   font-family: 'CircularStd';
-  src: url('../fonts/CircularStd/CircularStd-Black.woff2') format('woff2'), url('../fonts/CircularStd/CircularStd-Black.woff') format('woff');
+  src: url('/fonts/CircularStd/CircularStd-Black.woff2') format('woff2'), url('/fonts/CircularStd/CircularStd-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -19,7 +19,7 @@
 /* font CircularStd BlackItalic */
 @font-face {
   font-family: 'CircularStd';
-  src: url('../fonts/CircularStd/CircularStd-BlackItalic.woff2') format('woff2'), url('../fonts/CircularStd/CircularStd-BlackItalic.woff') format('woff');
+  src: url('/fonts/CircularStd/CircularStd-BlackItalic.woff2') format('woff2'), url('/fonts/CircularStd/CircularStd-BlackItalic.woff') format('woff');
   font-weight: 900;
   font-style: italic;
   font-display: swap;
@@ -28,7 +28,7 @@
 /* font CircularStd Bold */
 @font-face {
   font-family: 'CircularStd';
-  src: url('../fonts/CircularStd/CircularStd-Bold.woff2') format('woff2'), url('../fonts/CircularStd/CircularStd-Bold.woff') format('woff');
+  src: url('/fonts/CircularStd/CircularStd-Bold.woff2') format('woff2'), url('/fonts/CircularStd/CircularStd-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -37,7 +37,7 @@
 /* font CircularStd BoldItalic */
 @font-face {
   font-family: 'CircularStd';
-  src: url('../fonts/CircularStd/CircularStd-BoldItalic.woff2') format('woff2'), url('../fonts/CircularStd/CircularStd-BoldItalic.woff') format('woff');
+  src: url('/fonts/CircularStd/CircularStd-BoldItalic.woff2') format('woff2'), url('/fonts/CircularStd/CircularStd-BoldItalic.woff') format('woff');
   font-weight: 700;
   font-style: italic;
   font-display: swap;
@@ -46,7 +46,7 @@
 /* font CircularStd Book */
 @font-face {
   font-family: 'CircularStd';
-  src: url('../fonts/CircularStd/CircularStd-Book.woff2') format('woff2'), url('../fonts/CircularStd/CircularStd-Book.woff') format('woff');
+  src: url('/fonts/CircularStd/CircularStd-Book.woff2') format('woff2'), url('/fonts/CircularStd/CircularStd-Book.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -55,7 +55,7 @@
 /* font CircularStd BookItalic */
 @font-face {
   font-family: 'CircularStd';
-  src: url('../fonts/CircularStd/CircularStd-BookItalic.woff2') format('woff2'), url('../fonts/CircularStd/CircularStd-BookItalic.woff') format('woff');
+  src: url('/fonts/CircularStd/CircularStd-BookItalic.woff2') format('woff2'), url('/fonts/CircularStd/CircularStd-BookItalic.woff') format('woff');
   font-weight: 400;
   font-style: italic;
   font-display: swap;
@@ -64,7 +64,7 @@
 /* font Wulkandisplay Black */
 @font-face {
   font-family: 'Wulkandisplay';
-  src: url('../fonts/Wulkandisplay/Wulkandisplay-Black.woff2') format('woff2'), url('../fonts/Wulkandisplay/Wulkandisplay-Black.woff') format('woff');
+  src: url('/fonts/Wulkandisplay/Wulkandisplay-Black.woff2') format('woff2'), url('/fonts/Wulkandisplay/Wulkandisplay-Black.woff') format('woff');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
@@ -73,7 +73,7 @@
 /* font Wulkandisplay Bold */
 @font-face {
   font-family: 'Wulkandisplay';
-  src: url('../fonts/Wulkandisplay/Wulkandisplay-Bold.woff2') format('woff2'), url('../fonts/Wulkandisplay/Wulkandisplay-Bold.woff') format('woff');
+  src: url('/fonts/Wulkandisplay/Wulkandisplay-Bold.woff') format('woff2'), url('/fonts/Wulkandisplay/Wulkandisplay-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -82,7 +82,7 @@
 /* font Wulkandisplay Light */
 @font-face {
   font-family: 'Wulkandisplay';
-  src: url('../fonts/Wulkandisplay/Wulkandisplay-Light.woff2') format('woff2'), url('../fonts/Wulkandisplay/Wulkandisplay-Light.woff') format('woff');
+  src: url('/fonts/Wulkandisplay/Wulkandisplay-Light.woff2') format('woff2'), url('/fonts/Wulkandisplay/Wulkandisplay-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -91,7 +91,7 @@
 /* font Wulkandisplay Medium */
 @font-face {
   font-family: 'Wulkandisplay';
-  src: url('../fonts/Wulkandisplay/Wulkandisplay-Medium.woff2') format('woff2'), url('../fonts/Wulkandisplay/Wulkandisplay-Medium.woff') format('woff');
+  src: url('/fonts/Wulkandisplay/Wulkandisplay-Medium.woff2') format('woff2'), url('/fonts/Wulkandisplay/Wulkandisplay-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -100,7 +100,7 @@
 /* font Wulkandisplay Regular */
 @font-face {
   font-family: 'Wulkandisplay';
-  src: url('../fonts/Wulkandisplay/Wulkandisplay-Regular.woff2') format('woff2'), url('../fonts/Wulkandisplay/Wulkandisplay-Regular.woff') format('woff');
+  src: url('/fonts/Wulkandisplay/Wulkandisplay-Regular.woff2') format('woff2'), url('/fonts/Wulkandisplay/Wulkandisplay-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -109,7 +109,7 @@
 /* font Wulkandisplay SemiBold */
 @font-face {
   font-family: 'Wulkandisplay';
-  src: url('../fonts/Wulkandisplay/Wulkandisplay-SemiBold.woff2') format('woff2'), url('../fonts/Wulkandisplay/Wulkandisplay-SemiBold.woff') format('woff');
+  src: url('/fonts/Wulkandisplay/Wulkandisplay-SemiBold.woff2') format('woff2'), url('/fonts/Wulkandisplay/Wulkandisplay-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
