@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 
 const HeadTitle = ({ children, type = "main" }) => {
   const fontVariants = {
-    main: "text-4xl lg:text-7xl xl:text-10xl",
+    main: "text-5xl lg:text-6xl xl:text-9xl 3xl:text-10xl",
     secondary: "text-3xl lg:text-6xl xl:text-8xl",
   };
 
@@ -19,7 +19,7 @@ const HeadTitle = ({ children, type = "main" }) => {
   return (
     <div className={containerClasses}>
       <h1
-        className={`${fontClasses} font-wulkan font-bold leading-tiny mb-4 lg:mb-12`}
+        className={`${fontClasses} font-wulkan font-bold leading-tiny mb-4 3xl:mb-12`}
       >
         {children}
       </h1>
@@ -29,8 +29,8 @@ const HeadTitle = ({ children, type = "main" }) => {
 
 const DescriptionText = ({ children, type = "main" }) => {
   const fontVariants = {
-    main: "text-xl lg:text-4xl",
-    secondary: "text-lg lg:text-3xl",
+    main: "text-xl lg:text-2xl 3xl:text-4xl",
+    secondary: "text-lg lg:text-xl 3xl:text-3xl",
   };
 
   const fontClasses = fontVariants[type];
@@ -88,7 +88,11 @@ const BannerAbout = () => {
 };
 
 const TitleAbout = () => {
-  return <div>Sobre nosotras</div>;
+  return (
+    <div>
+      Sobre <br /> nosotras
+    </div>
+  );
 };
 
 const DescriptionAbout = () => {
@@ -115,7 +119,11 @@ const BannerServices = () => {
 };
 
 const TitleServices = () => {
-  return <div>Nuestros Servicios</div>;
+  return (
+    <div>
+      Nuestros <br /> Servicios
+    </div>
+  );
 };
 
 const DescriptionServices = () => {
@@ -170,11 +178,12 @@ const PromoBanner = ({ type = "HOME" }) => {
         {type === "BLOG" && <BannerBlog />}
       </div>
 
-      <div className="absolute inset-0 select-none pointer-events-none bg-gradient-to-b from-transparent to-black opacity-70"></div>
+      <div className="absolute z-0 top-0 left-0 right-0 h-1/4 select-none pointer-events-none bg-gradient-to-t from-transparent to-black opacity-70"></div>
+      <div className="absolute z-0 bottom-0 left-0 right-0 h-3/4 select-none pointer-events-none bg-gradient-to-b from-transparent to-black opacity-70"></div>
 
       <div className="absolute top-4 lg:top-12 left-4 lg:left-12 z-10 bg-primary">
         <Link href="/">
-          <div className="flex items-center justify-center w-32 lg:w-72 h-32 lg:h-72 p-4 cursor-pointer">
+          <div className="flex items-center justify-center w-32 xl:w-40 2xl:w-72 h-32 xl:h-40 2xl:h-72 p-4 cursor-pointer">
             <picture>
               <img src="/images/brand.png" alt="" className="w-full" />
             </picture>
@@ -182,7 +191,7 @@ const PromoBanner = ({ type = "HOME" }) => {
         </Link>
       </div>
 
-      <div className="absolute right-8 bottom-1/3 lg:bottom-8 z-10">
+      <div className="absolute right-8 bottom-1/3 xl:bottom-8 z-10">
         <div className="flex flex-col gap-4">
           {/* send text message to whatsapp in spain 933008726 */}
           <a
@@ -218,7 +227,7 @@ const PromoBanner = ({ type = "HOME" }) => {
 
       <div className="absolute bottom-0 left-0 right-0">
         <div className="container">
-          <div className="mb-8 lg:mb-12 text-white">
+          <div className="mb-8 lg:mb-12 text-white lg:mr-8">
             {type === "HOME" && (
               <HeadTitle>
                 <TitleHome />

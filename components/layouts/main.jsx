@@ -6,7 +6,7 @@ const LayoutMain = ({ children }) => {
     <div>
       <Header />
       <main>{children}</main>
-      <div className="bg-light bg-opacity-50">
+      <div className="bg-light">
         <Footer />
       </div>
     </div>

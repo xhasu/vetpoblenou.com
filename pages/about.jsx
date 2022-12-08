@@ -7,7 +7,7 @@ const AboutPage = () => {
   return (
     <div>
       <PromoBanner type="ABOUT" />
-      <div className="container px-0 lg:px-4">
+      <div className="container">
         <div className="grid lg:grid-cols-2 gap-4 lg:gap-16 mb-20">
           <div className="flex items-center justify-center">
             <div className="text-primary">
@@ -88,7 +88,9 @@ const AboutPage = () => {
                 </picture>
               </div>
               <div className="text-white">
-                <h2 className="text-xl lg:text-3xl font-wulkan font-bold mb-6">Veterinarias:</h2>
+                <h2 className="text-xl lg:text-3xl font-wulkan font-bold mb-6">
+                  Veterinarias:
+                </h2>
                 <ul className="lg:text-xl mb-4 space-y-3">
                   <li>
                     — Mª José Corzán, veterinaria fundadora. Licenciada en

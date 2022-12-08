@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       screens: {
         "2xl": "1676px",
+        "3xl": "1920px",
       },
       fontFamily: {
         wulkan: ["Wulkandisplay", "serif"],
@@ -17,6 +18,7 @@ module.exports = {
         lato: ["Lato", "sans-serif"],
       },
       fontSize: {
+        "9xl": ["8rem", ".8"],
         "10xl": ["9rem", ".8"],
       },
       lineHeight: {

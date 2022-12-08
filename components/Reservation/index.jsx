@@ -6,14 +6,14 @@ const Reservation = () => {
   const date = new Date();
 
   return (
-    <div className="bg-light bg-opacity-50 text-center text-primary">
+    <div className="bg-light text-center text-primary">
       <div className="container py-20">
         <Headline>Pide tu cita</Headline>
-        <div className="max-w-5xl mx-auto mb-8 lg:mb-20">
-          <Description>
+        <div className="max-w-3xl mx-auto mb-8 lg:mb-20">
+          <p className="font-circular lg:text-2xl">
             De lunes a viernes de 9 a 14 y de 17 a 20 horas sábados de 10 a 14
             horas Nuestro Centro cierra los días festivos oficiales en Barcelona
-          </Description>
+          </p>
         </div>
         <div>
           <form method="" noValidate>
