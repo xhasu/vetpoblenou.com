@@ -19,7 +19,7 @@ const HeadTitle = ({ children, type = "main" }) => {
   return (
     <div className={containerClasses}>
       <h1
-        className={`${fontClasses} font-wulkan font-bold leading-tiny mb-4 3xl:mb-12`}
+        className={`${fontClasses} font-wulkan font-bold leading-tiny mb-4 xl:mb-12`}
       >
         {children}
       </h1>
@@ -170,7 +170,7 @@ const PromoBanner = ({ type = "HOME" }) => {
   };
 
   return (
-    <div className="relative bg-neutral-600 max-h-[1080px] h-screen z-0 mb-20">
+    <div className="relative bg-neutral-600 max-h-[1080px] h-screen z-0 mb-20 xl:mb-36">
       <div className="absolute inset-0 z-0">
         {type === "HOME" && <BannerHome />}
         {type === "ABOUT" && <BannerAbout />}

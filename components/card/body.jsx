@@ -4,10 +4,10 @@ const CardBody = () => {
   return (
     <div>
       <div className="flex gap-2 items-center flex-wrap mb-4 lg:mb-8 text-alter text-sm md:text-lg">
-        <div className="rounded-full w-8 md:w-12 h-8 md:h-12 overflow-hidden bg-neutral-600"></div>
-        <div>Julie Christie</div>
-        <span>&middot;</span>
-        <div>October 17,2021</div>
+        {/* <div className="rounded-full w-8 md:w-12 h-8 md:h-12 overflow-hidden bg-neutral-600"></div> */}
+        {/* <div>Julie Christie</div> */}
+        {/* <span>&middot;</span> */}
+        <div>October 17, 2021</div>
         <span>&middot;</span>
         <div>3:33 pm</div>
         {/* <span>&middot;</span> */}

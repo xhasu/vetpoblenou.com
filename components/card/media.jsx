@@ -3,7 +3,7 @@ import React from "react";
 const CardMedia = () => {
   return (
     <div className="relative z-0">
-      <div className="absolute top-2 right-2 px-8 py-2 bg-primary text-white text-center lg:text-2xl font-wulkan z-10">
+      <div className="absolute top-2 right-2 px-8 py-2 bg-primary text-white text-center lg:text-xl font-wulkan z-10">
         Categoria
       </div>
       <div className="relative aspect-w-1 aspect-h-1">

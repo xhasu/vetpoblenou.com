@@ -60,7 +60,9 @@ const HomePage = () => {
         </div>
       </div>
       <PromoNews />
-      <DecorRight />
+      <div className="relative z-10">
+        <DecorRight />
+      </div>
       <Reservation />
     </div>
   );

@@ -14,29 +14,24 @@ const AboutPage = () => {
               <Headline>¡40 años!</Headline>
             </div>
           </div>
-          <div className="text-black">
+          <div className="text-black font-circular">
             <p className="text-current text-lg lg:text-2xl">
-              Cuarenta años de compromiso y experiencia, nuestro equipo se
-              mantiene en constante formación al corriente de los nuevos avances
-              en medicina veterinaria, para ofrecer una atención completa y de
-              calidad.
+              Cuarenta años de compromiso y experiencia. Nuestro equipo se
+              mantiene en constante formación, al corriente de los nuevos
+              avances en medicina veterinaria para ofrecer una atención completa
+              y de calidad.
             </p>
             <div className="mb-8"></div>
             <p className="text-current text-lg lg:text-2xl">
-              Sabemos que las mascotas son un miembro más de la familia, y por
-              ello, te acompañamos en su cuidado y en la prevención de
-              enfermedades y proporcionamos los medios necesarios para
-              atenderlas en su día a día.
+              En Clínica Veterinaria Poblenou, disponemos de los medios e
+              información necesarios para poder atender a vuestros gatos, perros
+              o animales exóticos en su día a día.
             </p>
             <div className="mb-8"></div>
             <p className="text-current text-lg lg:text-2xl">
-              En Clínica Veterinaria Poblenou disponemos de los medios e
-              información necesarias para poder atender a vuestros gatos, perros
-              o animales exóticos en su día a día. Entendemos nuestro ejercicio
-              profesional como un compromiso con vosotros y vuestras mascotas
-              para mejorar su calidad de vida y garantizar su bienestar y por
-              ello, creemos en dar el soporte necesario para que su cuidado
-              trascienda sus visitas al veterinario.
+              Entendemos nuestro ejercicio profesional como un compromiso con
+              vosotros y vuestras mascotas, para mejorar su calidad de vida y
+              garantizar su bienestar.
             </p>
           </div>
         </div>
