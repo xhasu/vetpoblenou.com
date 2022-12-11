@@ -16,7 +16,7 @@ const Reservation = () => {
         </div>
         <div className="max-w-3xl mx-auto mb-8 lg:mb-20 text-primary text-center">
           <p className="font-circular lg:text-2xl">
-            De lunes a viernes de 9 a 14 y de 17 a 20 horas sábados de 10 a 14
+            De lunes a viernes de 9 a 14 y de 17 a 20 horas, sábados de 10 a 14
             horas Nuestro Centro cierra los días festivos oficiales en Barcelona
           </p>
         </div>
@@ -67,7 +67,7 @@ const Reservation = () => {
             </div>
           </form>
         </div>
-        <div className="text-center">
+        <div className="text-center text-primary">
           <Description>
             Parking: BSM, Rambla del Poblenou, 130 (1 hora gratuita)
           </Description>
