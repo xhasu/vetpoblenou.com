@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mb-16 md:mb-32"></div>
-        <div className="flex flex-col md:flex-row justify-center gap-4 items-center md:items-baseline mb-4 lg:text-2xl">
+        <div className="flex flex-col md:flex-row justify-center gap-4 items-center md:items-baseline mb-4 xl:text-2xl px-4">
           <div>Camí Antic de València, 18 baixos, 08005 - Barcelona</div>
           <span className="hidden md:block h-4 border-r border-white"></span>
           <div>
