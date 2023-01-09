@@ -1,4 +1,4 @@
-import PromoNews from "components/promonews";
+// import PromoNews from "components/promonews";
 import { Description, Headline } from "components/shared/headlines";
 import PromoBanner from "components/shared/promo-banner";
 import Reservation from "components/reservation";
@@ -19,13 +19,13 @@ const HomePage = () => {
             </Description>
             <div>
               <picture>
-                <img src="/images/animals.png" alt="" />
+                <img src="/blog/images/animals.png" alt="" />
               </picture>
             </div>
           </div>
           <div>
             <picture>
-              <img src="/images/home-01.jpg" alt="" />
+              <img src="/blog/images/home-01.jpg" alt="" />
             </picture>
           </div>
         </div>
@@ -33,7 +33,7 @@ const HomePage = () => {
           <div className="text-primary text-left">
             <div className="mb-8">
               <picture>
-                <img src="/images/home-02.jpg" alt="" />
+                <img src="/blog/images/home-02.jpg" alt="" />
               </picture>
             </div>
             <Headline>Planifica sus revisiones fácilmente</Headline>
@@ -53,13 +53,17 @@ const HomePage = () => {
             </Description>
             <div className="mt-8 text-right">
               <picture>
-                <img src="/images/home-03.jpg" alt="" className="ml-auto" />
+                <img
+                  src="/blog/images/home-03.jpg"
+                  alt=""
+                  className="ml-auto"
+                />
               </picture>
             </div>
           </div>
         </div>
       </div>
-      <PromoNews />
+      {/* <PromoNews /> */}
       <div className="relative z-10">
         <DecorRight />
       </div>

@@ -20,7 +20,7 @@ const Header = () => {
                 <div className="flex gap-2">
                   <div className="">
                     <picture>
-                      <img src="/images/icons/icon-phone.png" alt="" />
+                      <img src="/blog/images/icons/icon-phone.png" alt="" />
                     </picture>
                   </div>
                   <a href="tel:933 008 726">933 008 726</a> /{" "}
@@ -30,11 +30,13 @@ const Header = () => {
             </ul>
           </div>
         </nav>
+        {/* 
         <div className="flex items-center ml-6 text-white text-center uppercase">
           <div className="p-2 bg-zinc-700">CA</div>
           <div className="p-2 bg-zinc-500 underline">ES</div>
           <div className="p-2 bg-zinc-400">EN</div>
         </div>
+        */}
         <div className="flex flex-col gap-2 cursor-pointer self-center ml-4 lg:hidden">
           <div className="h-0.5 w-8 bg-white"></div>
           <div className="h-0.5 w-8 bg-white"></div>

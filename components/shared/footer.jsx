@@ -43,14 +43,14 @@ const Footer = () => {
             Whatsapp <IconArrowUpRight className="w-4 h-4" />
           </a>
           <span className="hidden md:block h-4 border-r border-white"></span>
-          <div
+          <a
             className="px-4 flex items-center gap-2 mb-2"
             href="mailto:clinica@vetpoblenou.com"
             target="_blank"
             rel="nopener noreferrer"
           >
             Mail <IconArrowUpRight className="w-4 h-4" />
-          </div>
+          </a>
         </div>
         <div className="mb-16 md:mb-32"></div>
         <div className="flex flex-col md:flex-row justify-center gap-4 items-center md:items-baseline mb-4 xl:text-2xl px-4">

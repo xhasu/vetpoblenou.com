@@ -41,7 +41,7 @@ const CardBody = ({ data = {} }) => {
         {/* <span>&middot;</span> */}
         {/* <div>2 comments</div> */}
       </div>
-      <a href={canonical_url_domain}>
+      <a href={`/blog${canonical_url_domain}`}>
         <h2 className="text-primary text-xl lg:text-4xl font-wulkan mb-4">
           {title}
         </h2>
@@ -53,7 +53,7 @@ const CardBody = ({ data = {} }) => {
         dangerouslySetInnerHTML={{ __html: excerpt }}
       ></div>
       <a
-        href={canonical_url}
+        href={`/blog${canonical_url_domain}`}
         className="lg:text-2xl inline-flex items-end text-black"
       >
         <span className="mr-4">Leer más</span>

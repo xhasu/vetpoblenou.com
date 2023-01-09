@@ -48,7 +48,7 @@ const AboutPage = () => {
             <div>
               <div className="mb-8">
                 <picture>
-                  <img src="/images/about-01.jpg" alt="" />
+                  <img src="/blog/images/about-01.jpg" alt="" />
                 </picture>
               </div>
               <div className="text-white">
@@ -79,7 +79,7 @@ const AboutPage = () => {
             <div>
               <div className="mb-8">
                 <picture>
-                  <img src="/images/about-02.jpg" alt="" />
+                  <img src="/blog/images/about-02.jpg" alt="" />
                 </picture>
               </div>
               <div className="text-white">
@@ -114,23 +114,23 @@ const AboutPage = () => {
           <div className="flex justify-end gap-4">
             <div>
               <picture>
-                <img src="/images/about-slider-01.jpg" alt="" />
+                <img src="/blog/images/about-slider-01.jpg" alt="" />
               </picture>
             </div>
             <div>
               <picture>
-                <img src="/images/about-slider-02.jpg" alt="" />
+                <img src="/blog/images/about-slider-02.jpg" alt="" />
               </picture>
             </div>
             <div>
               <picture>
-                <img src="/images/about-slider-03.jpg" alt="" />
+                <img src="/blog/images/about-slider-03.jpg" alt="" />
               </picture>
             </div>
           </div>
         </div>
         <picture>
-          <img src="/images/about-03.jpg" alt="" />
+          <img src="/blog/images/about-03.jpg" alt="" />
         </picture>
       </div>
       <Reservation />

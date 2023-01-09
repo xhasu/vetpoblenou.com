@@ -39,17 +39,17 @@ const ServicesPage = () => {
         <div className="grid lg:grid-cols-2 gap-16 mb-20">
           <div>
             <picture>
-              <img src="/images/services-01.jpg" alt="" />
+              <img src="/blog/images/services-01.jpg" alt="" />
             </picture>
           </div>
           <div>
             <div className="mb-16">
               <picture>
-                <img src="/images/services-02.jpg" alt="" />
+                <img src="/blog/images/services-02.jpg" alt="" />
               </picture>
             </div>
             <picture>
-              <img src="/images/services-03.jpg" alt="" />
+              <img src="/blog/images/services-03.jpg" alt="" />
             </picture>
           </div>
         </div>

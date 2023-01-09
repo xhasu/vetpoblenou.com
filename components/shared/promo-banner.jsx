@@ -51,7 +51,7 @@ const BannerHome = () => {
     <div
       className="absolute inset-0"
       style={{
-        backgroundImage: "url('/images/banner-home.jpg')",
+        backgroundImage: "url('/blog/images/banner-home.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -78,7 +78,7 @@ const BannerAbout = () => {
     <div
       className="absolute inset-0"
       style={{
-        backgroundImage: "url('/images/banner-about.jpg')",
+        backgroundImage: "url('/blog/images/banner-about.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -109,7 +109,7 @@ const BannerServices = () => {
     <div
       className="absolute inset-0"
       style={{
-        backgroundImage: "url('/images/banner-services.jpg')",
+        backgroundImage: "url('/blog/images/banner-services.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -140,7 +140,7 @@ const BannerBlog = () => {
     <div
       className="absolute inset-0"
       style={{
-        backgroundImage: "url('/images/banner-blog.jpg')",
+        backgroundImage: "url('/blog/images/banner-blog.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -185,7 +185,7 @@ const PromoBanner = ({ type = "HOME" }) => {
         <Link href="/">
           <div className="flex items-center justify-center w-32 xl:w-40 2xl:w-72 h-32 xl:h-40 2xl:h-72 p-4 cursor-pointer">
             <picture>
-              <img src="/images/brand.png" alt="" className="w-full" />
+              <img src="/blog/images/brand.png" alt="" className="w-full" />
             </picture>
           </div>
         </Link>
@@ -201,7 +201,7 @@ const PromoBanner = ({ type = "HOME" }) => {
             rel="noreferrer noopener"
           >
             <picture>
-              <img src="/images/icons/icon-whatsapp.png" alt="" />
+              <img src="/blog/images/icons/icon-whatsapp.png" alt="" />
             </picture>
           </a>
           <a
@@ -210,7 +210,7 @@ const PromoBanner = ({ type = "HOME" }) => {
             rel="noreferrer noopener"
           >
             <picture>
-              <img src="/images/icons/icon-instagram.png" alt="" />
+              <img src="/blog/images/icons/icon-instagram.png" alt="" />
             </picture>
           </a>
           <a
@@ -219,7 +219,7 @@ const PromoBanner = ({ type = "HOME" }) => {
             rel="noreferrer noopener"
           >
             <picture>
-              <img src="/images/icons/icon-facebook.png" alt="" />
+              <img src="/blog/images/icons/icon-facebook.png" alt="" />
             </picture>
           </a>
         </div>
@@ -276,7 +276,7 @@ const PromoBanner = ({ type = "HOME" }) => {
         >
           <picture>
             <img
-              src="/images/icons/icon-angle-down.png"
+              src="/blog/images/icons/icon-angle-down.png"
               alt=""
               className="cursor-pointer"
             />

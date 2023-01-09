@@ -8,6 +8,25 @@ const Reservation = () => {
   const tomorrow = new Date(today);
   tomorrow.setDate(tomorrow.getDate() + 1);
 
+  const SendForm = () => {
+    // get input values
+    const date = document.querySelector("#date").value;
+    const franja = document.querySelector("#franja").value;
+    const motivo = document.querySelector("#motivo").value;
+
+    // set email subject and body
+    const subject = `Cita website`;
+    const body = `Cita ${motivo} ${date} ${franja}`;
+
+    // set email href
+    const email = document.querySelector("a");
+    email.target = "_blank";
+    email.href = `mailto:clinica@vetpoblenou.com?subject=${subject}&body=${body}`;
+
+    // send email
+    email.click();
+  };
+
   return (
     <div className="bg-light">
       <div className="container py-20">
@@ -25,11 +44,12 @@ const Reservation = () => {
             <div className="flex flex-col md:flex-row gap-4 mb-8 lg:mb-20 text-2xl">
               <div className="relative flex-1">
                 <input
+                  id="date"
                   className="w-full border-2 border-black px-5 lg:px-10 py-4 lg:py-8 bg-transparent focus:outline-none"
                   type="date"
                   placeholder="Fecha"
                   defaultValue={tomorrow.toISOString().split("T")[0]}
-                  min={today.toISOString().split("T")[0]}
+                  min={tomorrow.toISOString().split("T")[0]}
                 />
               </div>
               <div className="relative flex-1">
@@ -38,10 +58,14 @@ const Reservation = () => {
                 </div>
                 <select
                   name=""
-                  id=""
+                  id="franja"
                   className="w-full border-2 border-black px-5 lg:px-10 py-4 lg:py-8 bg-transparent appearance-none focus:outline-none"
                 >
-                  <option value="">Franja</option>
+                  <option value="" className="hidden">
+                    Franja
+                  </option>
+                  <option value="">Mañana</option>
+                  <option value="">Tarde</option>
                 </select>
               </div>
               <div className="relative flex-1">
@@ -50,16 +74,21 @@ const Reservation = () => {
                 </div>
                 <select
                   name=""
-                  id=""
+                  id="motivo"
                   className="w-full border-2 border-black px-5 lg:px-10 py-4 lg:py-8 bg-transparent appearance-none focus:outline-none"
                 >
-                  <option value="">Motivo</option>
+                  <option value="" className="hidden">
+                    Motivo
+                  </option>
+                  <option value="">Consulta</option>
+                  <option value="">Control</option>
                 </select>
               </div>
             </div>
             <div className="text-center mb-24">
               <button
                 type="button"
+                onClick={SendForm}
                 className="text-center text-white px-20 py-4 bg-primary text-3xl"
               >
                 Reservar
