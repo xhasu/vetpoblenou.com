@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   trailingSlash: true,
-  basePath: "/blog",
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH,
 };
 
 module.exports = nextConfig;
