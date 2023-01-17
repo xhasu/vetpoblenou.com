@@ -87,7 +87,9 @@ const BannerAbout = () => {
 
 const TitleAbout = () => {
   const { t } = useTranslation();
-  return <div>{t("about.banner.title")}</div>;
+  return (
+    <div dangerouslySetInnerHTML={{ __html: t("about.banner.title") }}></div>
+  );
 };
 
 const DescriptionAbout = () => {
@@ -111,7 +113,9 @@ const BannerServices = () => {
 
 const TitleServices = () => {
   const { t } = useTranslation();
-  return <div>{t("services.banner.title")}</div>;
+  return (
+    <div dangerouslySetInnerHTML={{ __html: t("services.banner.title") }}></div>
+  );
 };
 
 const DescriptionServices = () => {

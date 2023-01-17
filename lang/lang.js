@@ -32,7 +32,7 @@ export const Lang = {
     },
     about: {
       banner: {
-        title: "Sobre nosotras",
+        title: "Sobre </br> nosotras",
         subtitle:
           "Desde Clínica Veterinaria Poblenou, velamos por la salud de tus mascotas ofreciéndoles un cuidado integro con proximidad y profesionalidad. ",
       },
@@ -83,7 +83,7 @@ export const Lang = {
     },
     services: {
       banner: {
-        title: "Nuestros servicios",
+        title: "Nuestros </br> servicios",
         subtitle:
           "Desde Clínica Veterinaria Poblenou, velamos por la salud de tus mascotas ofreciéndoles un cuidado integro con proximidad y profesionalidad. ",
       },
@@ -159,7 +159,7 @@ export const Lang = {
     },
     about: {
       banner: {
-        title: "About us",
+        title: "About </br> us",
         subtitle:
           "At Clínica Veterinaria Poblenou, we take care of your pets' health offering them an integral care with proximity and professionalism.",
       },
@@ -210,7 +210,7 @@ export const Lang = {
     },
     services: {
       banner: {
-        title: "Our services",
+        title: "Our </br> services",
         subtitle:
           "At Clínica Veterinaria Poblenou, we take care of your pets' health offering them an integral care with proximity and professionalism. ",
       },
@@ -286,7 +286,7 @@ export const Lang = {
     },
     about: {
       banner: {
-        title: "Sobre nosaltres",
+        title: "Sobre </br> nosaltres",
         subtitle:
           "Des de Clínica Veterinària Poblenou, vetllem per la salut de les teves mascotes oferint-los una cura íntegra amb proximitat i professionalitat.",
       },
@@ -336,7 +336,7 @@ export const Lang = {
     },
     services: {
       banner: {
-        title: "Els nostres serveis",
+        title: "Els nostres </br> serveis",
         subtitle:
           "Des de Clínica Veterinària Poblenou, vetllem per la salut de les teves mascotes oferint-los una cura íntegra amb proximitat i professionalitat.",
       },
