@@ -1,13 +1,15 @@
 import Link from "next/link";
 import { IconArrowUpRight } from "./icons";
+import useTranslation from "hooks/useTranslation";
 
 const Footer = () => {
+  const { t } = useTranslation();
   return (
     <div className="max-w-screen-2xl px-4 mx-auto">
       <div className="bg-primary text-white py-4 text-center">
         <div className="mb-16 md:mb-32"></div>
         <h2 className="mb-12 text-2xl md:text-5xl font-wulkan">
-          ¿Quieres contactarnos?
+          {t("footer.title")}
         </h2>
         <div className="flex justify-center items-baseline gap-4 uppercase text-sm md:text-base flex-wrap max-w-md md:max-w-none mx-auto">
           <Link href="/blog/">

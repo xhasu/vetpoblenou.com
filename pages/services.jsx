@@ -2,8 +2,10 @@ import PromoGallery from "components/promogallery";
 import Reservation from "components/reservation";
 import { DecorLeft } from "components/shared/decorations";
 import PromoBanner from "components/shared/promo-banner";
+import useTranslation from "hooks/useTranslation";
 
 const ServicesPage = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <PromoBanner type="SERVICES" />
@@ -12,24 +14,19 @@ const ServicesPage = () => {
           <div className="text-black"></div>
           <div className="text-black">
             <p className="text-current text-lg lg:text-2xl">
-              La clínica cuenta con servicios de medicina interna, cirugía,
-              radiología, análisis clínicos, hospitalización de día
-              independiente para perros y gatos.
+              {t("services.info[0]")}
             </p>
             <div className="mb-8"></div>
             <p className="text-current text-lg lg:text-2xl">
-              Servicio de medicina para animales exóticos.
+              {t("services.info[1]")}
             </p>
             <div className="mb-8"></div>
             <p className="text-current text-lg lg:text-2xl">
-              Tramitación de documentación para viajar (certificados y
-              pasaportes).
+              {t("services.info[2]")}
             </p>
             <div className="mb-8"></div>
             <p className="text-current text-lg lg:text-2xl">
-              Complementamos estos servicios con un equipo de profesionales
-              veterinarios especializados en cardiología, oftalmología,
-              traumatología, endoscopia y ecografía.
+              {t("services.info[3]")}
             </p>
           </div>
         </div>
@@ -57,29 +54,26 @@ const ServicesPage = () => {
           <div className="text-black">
             <div className="max-w-sm px-4 mr-0 ml-auto">
               <p className="text-4xl font-wulkan font-bold text-primary">
-                Nuestros centros de referencia para urgencias y hospitalización
-                en Barcelona:
+                {t("services.subheadline")}
                 <div className="border-dashed border-b-4 border-black mt-8"></div>
               </p>
             </div>
           </div>
           <div className="text-black">
             <p className="text-current text-lg lg:text-2xl">
-              ANICURA ARS VETERINARIA, C. dels Cavallers, 37, Telf.: 932858400
+              {t("services.places[0]")}
             </p>
             <div className="mb-8"></div>
             <p className="text-current text-lg lg:text-2xl">
-              HOSPITAL VETERINARI BALMES, C. de Balmes, 81, Telf.: 934539879
+              {t("services.places[1]")}
             </p>
             <div className="mb-8"></div>
             <p className="text-current text-lg lg:text-2xl">
-              CLINICA FELINA BARCELONA, C. del Marqués del Campo Sagrado, 12,
-              Telf.: 936244854
+              {t("services.places[2]")}
             </p>
             <div className="mb-8"></div>
             <p className="text-current text-lg lg:text-2xl">
-              La comunicación con los profesionales de estos hospitales nos
-              permite el seguimiento de los casos referidos.
+              {t("services.caption")}
             </p>
           </div>
         </div>

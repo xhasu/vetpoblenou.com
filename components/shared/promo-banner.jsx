@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { useRef } from "react";
 import PropTypes from "prop-types";
+import useTranslation from "hooks/useTranslation";
 
 const HeadTitle = ({ children, type = "main" }) => {
   const fontVariants = {
@@ -61,16 +62,13 @@ const BannerHome = () => {
 };
 
 const TitleHome = () => {
-  return <div>Cuidamos a los que quieres</div>;
+  const { t } = useTranslation();
+  return <div>{t("home.banner.title")}</div>;
 };
 
 const DescriptionHome = () => {
-  return (
-    <>
-      En Clínica Veterinaria Poblenou, velamos por la salud de tus mascotas
-      ofreciéndoles un cuidado íntegro con proximidad y profesionalidad.
-    </>
-  );
+  const { t } = useTranslation();
+  return <>{t("home.banner.subtitle")}</>;
 };
 
 const BannerAbout = () => {
@@ -88,20 +86,13 @@ const BannerAbout = () => {
 };
 
 const TitleAbout = () => {
-  return (
-    <div>
-      Sobre <br /> nosotras
-    </div>
-  );
+  const { t } = useTranslation();
+  return <div>{t("about.banner.title")}</div>;
 };
 
 const DescriptionAbout = () => {
-  return (
-    <>
-      Desde Clínica Veterinaria Poblenou, velamos por la salud de tus mascotas
-      ofreciéndoles un cuidado íntegro con proximidad y profesionalidad.
-    </>
-  );
+  const { t } = useTranslation();
+  return <>{t("about.banner.subtitle")}</>;
 };
 
 const BannerServices = () => {
@@ -119,20 +110,13 @@ const BannerServices = () => {
 };
 
 const TitleServices = () => {
-  return (
-    <div>
-      Nuestros <br /> Servicios
-    </div>
-  );
+  const { t } = useTranslation();
+  return <div>{t("services.banner.title")}</div>;
 };
 
 const DescriptionServices = () => {
-  return (
-    <>
-      Desde Clínica Veterinaria Poblenou, velamos por la salud de tus mascotas
-      ofreciéndoles un cuidado íntegro con proximidad y profesionalidad.
-    </>
-  );
+  const { t } = useTranslation();
+  return <>{t("services.banner.subtitle")}</>;
 };
 
 const BannerBlog = () => {
@@ -150,16 +134,13 @@ const BannerBlog = () => {
 };
 
 const TitleBlog = () => {
-  return <div>Lo que necesitas saber para su buen cuidado</div>;
+  const { t } = useTranslation();
+  return <div>{t("blog.banner.title")}</div>;
 };
 
 const DescriptionBlog = () => {
-  return (
-    <>
-      Información actualizada y contrastada sobre los diferentes aspectos para
-      el cuidado de vuestras mascotas.
-    </>
-  );
+  const { t } = useTranslation();
+  return <>{t("blog.banner.subtitle")}</>;
 };
 
 const PromoBanner = ({ type = "HOME" }) => {
