@@ -41,13 +41,22 @@ const Header = () => {
           </div>
         </nav>
         <div className="flex items-center ml-6 text-white text-center uppercase">
-          <div className={`p-2 bg-zinc-700 cursor-pointer ${localeClass("ca")}`} onClick={() => setlocale("ca")}>
+          <div
+            className={`p-2 bg-zinc-700 cursor-pointer ${localeClass("ca")}`}
+            onClick={() => setlocale("ca")}
+          >
             CA
           </div>
-          <div className={`p-2 bg-zinc-500 cursor-pointer ${localeClass("es")}`} onClick={() => setlocale("es")}>
+          <div
+            className={`p-2 bg-zinc-500 cursor-pointer ${localeClass("es")}`}
+            onClick={() => setlocale("es")}
+          >
             ES
           </div>
-          <div className={`p-2 bg-zinc-400 cursor-pointer ${localeClass("en")}`}onClick={() => setlocale("en")}>
+          <div
+            className={`p-2 bg-zinc-400 cursor-pointer ${localeClass("en")}`}
+            onClick={() => setlocale("en")}
+          >
             EN
           </div>
         </div>
