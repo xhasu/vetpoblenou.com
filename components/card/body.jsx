@@ -25,8 +25,8 @@ const CardBody = ({ data = {} }) => {
 
   // remove domain from url
   const canonical_url_domain = canonical_url.replace(
-    "https://vetpoblenou.com/blog",
-    "/blog/articles"
+    "https://vetpoblenou.com",
+    "/blog"
   );
 
   return (
