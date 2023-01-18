@@ -84,7 +84,9 @@ const Article = ({ api = "https://www.vetpoblenou.com/blog/wp-json" }) => {
   return (
     <div>
       <div className="relative mx-auto h-32 bg-primary"></div>
-      {loading && <div>Loading...</div>}
+      <div className="container">
+        {loading && <div className="text-center py-4 text-lg">. . .</div>}
+      </div>
       <div className="max-w-2xl mx-auto">
         {promo_item && (
           <picture>

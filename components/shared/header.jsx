@@ -24,7 +24,7 @@ const Header = () => {
                 <Link href="/services/">{t("header.services")}</Link>
               </li>
               <li>
-                <Link href="/blog/">{t("header.blog")}</Link>
+                <Link href="/articles/">{t("header.blog")}</Link>
               </li>
               <li className="hidden lg:block">
                 <div className="flex gap-2">
