@@ -246,7 +246,7 @@ export const Lang = {
         time: "Franja",
         motive: "Motivo",
       },
-      button: "Reservar",
+      button: "Reservation",
       caption: "Texto de la leyenda",
     },
     footer: {

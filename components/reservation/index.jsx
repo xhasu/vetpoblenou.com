@@ -1,8 +1,10 @@
 import { Description, Headline } from "components/shared/headlines";
 import { IconChevronDown } from "components/shared/icons";
-import React from "react";
+import useTranslation from "hooks/useTranslation";
 
 const Reservation = () => {
+  const { t } = useTranslation();
+
   // get current date
   const today = new Date();
   const tomorrow = new Date(today);
@@ -31,12 +33,11 @@ const Reservation = () => {
     <div className="bg-light">
       <div className="container py-20">
         <div className="text-center text-primary">
-          <Headline>Pide tu cita</Headline>
+          <Headline>{t("reservation.title")}</Headline>
         </div>
         <div className="max-w-3xl mx-auto mb-8 lg:mb-20 text-primary text-center">
           <p className="font-circular lg:text-2xl">
-            De lunes a viernes de 9 a 14 y de 17 a 20 horas, sábados de 10 a 14
-            horas Nuestro Centro cierra los días festivos oficiales en Barcelona
+            {t("reservation.description")}
           </p>
         </div>
         <div>
@@ -64,8 +65,8 @@ const Reservation = () => {
                   <option value="" className="hidden">
                     Franja
                   </option>
-                  <option value="">Mañana</option>
-                  <option value="">Tarde</option>
+                  <option value="Mañana">Mañana</option>
+                  <option value="Tarde">Tarde</option>
                 </select>
               </div>
               <div className="relative flex-1">
@@ -80,8 +81,10 @@ const Reservation = () => {
                   <option value="" className="hidden">
                     Motivo
                   </option>
-                  <option value="">Consulta</option>
-                  <option value="">Control</option>
+                  <option value="Primera Visita">Primera Visita</option>
+                  <option value="Visita">Visita</option>
+                  <option value="Vacunación">Vacunación</option>
+                  <option value="Certificado/viajar">Certificado/viajar</option>
                 </select>
               </div>
             </div>
@@ -91,15 +94,13 @@ const Reservation = () => {
                 onClick={SendForm}
                 className="text-center text-white px-20 py-4 bg-primary text-3xl"
               >
-                Reservar
+                {t("reservation.button")}
               </button>
             </div>
           </form>
         </div>
         <div className="text-center text-primary">
-          <Description>
-            Parking: BSM, Rambla del Poblenou, 130 (1 hora gratuita)
-          </Description>
+          <Description>{t("reservation.caption")}</Description>
         </div>
       </div>
     </div>
