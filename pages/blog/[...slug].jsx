@@ -58,11 +58,41 @@ export async function getStaticPaths() {
   const apiUrl = process.env.WORDPRESS_API_URL;
 
   // fetch posts from wordpress api using axios
-  const res = await axios.get(`${apiUrl}/wp/v2/posts`);
+  const url = `${apiUrl}/wp/v2/posts`;
+  const res = await axios.get(url);
   const posts = await res.data;
+  // const headers = res.headers;
+
+  // get total pages in number
+  // const totalPages = parseInt(headers["x-wp-totalpages"]);
+  const totalPages = 3; // for testing only
+
+  console.log("Total pages: ", totalPages);
+
+  // create array length from total pages in nodejs
+  const arr = Array.from(Array(totalPages - 1).keys());
+  console.log("Arr length", arr.length);
+
+  // fetch next pages
+  const totalPost = await Promise.all(
+    arr.map(async (_, i) => {
+      const res = await axios.get(url, {
+        params: {
+          page: i + 2,
+        },
+      });
+      const posts = await res.data;
+      console.log("Page: ", i + 2, " - ", posts.length, " posts");
+      return posts;
+    })
+  );
+
+  // flatten array
+  const allPosts = totalPost.reduce((acc, val) => acc.concat(val), posts);
+  console.log("Total posts: ", allPosts.length);
 
   // get paths from posts
-  const paths = posts.map((post) => {
+  const paths = allPosts.map((post) => {
     const { slug = "", date = "" } = post;
     const year = "" + new Date(date).getFullYear();
     const month = ("0" + (new Date(date).getMonth() + 1)).slice(-2);
