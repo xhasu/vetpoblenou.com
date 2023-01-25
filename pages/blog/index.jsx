@@ -80,7 +80,7 @@ const BlogPage = ({ api = "https://www.vetpoblenou.com/blog/wp-json" }) => {
   return (
     <div>
       <PromoBanner type="BLOG" />
-      <main className="container">
+      <main className="container max-w-7xl">
         {posts.map((post) => (
           <div key={post.id}>
             <PromoCard data={post} />

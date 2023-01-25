@@ -30,7 +30,7 @@ const CardBody = ({ data = {} }) => {
   );
 
   return (
-    <div className="break-all min-w-0">
+    <div className="break-words min-w-0">
       <div className="flex gap-2 items-center flex-wrap mb-4 lg:mb-8 text-alter text-sm md:text-lg">
         {/* <div className="rounded-full w-8 md:w-12 h-8 md:h-12 overflow-hidden bg-neutral-600"></div> */}
         {/* <div>Julie Christie</div> */}

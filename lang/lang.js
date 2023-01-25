@@ -1,7 +1,7 @@
 export const Lang = {
   es: {
     header: {
-      home: "Home",
+      home: "Inicio",
       about: "Sobre nosotros",
       services: "Servicios",
       blog: "Blog",
@@ -247,7 +247,7 @@ export const Lang = {
         motive: "Motivo",
       },
       button: "Reservation",
-      caption: "Texto de la leyenda",
+      caption: "",
     },
     footer: {
       title: "Do you want to contact us?",
@@ -255,7 +255,7 @@ export const Lang = {
   },
   ca: {
     header: {
-      home: "Home",
+      home: "Inici",
       about: "Sobre nosaltres",
       services: "Serveis",
       blog: "Blog",

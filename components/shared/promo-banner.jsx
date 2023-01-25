@@ -49,15 +49,17 @@ const DescriptionText = ({ children, type = "main" }) => {
 
 const BannerHome = () => {
   return (
-    <div
-      className="absolute inset-0"
-      style={{
-        backgroundImage: "url('/blog/images/banner-home.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
-      }}
-    ></div>
+    <picture>
+      <source
+        media="(max-width: 480px)"
+        srcSet="/blog/images/banner-home-xs.jpg"
+      />
+      <img
+        src="/blog/images/banner-home.jpg"
+        alt="banner"
+        className="absolute w-full h-full object-cover object-center"
+      />
+    </picture>
   );
 };
 
@@ -73,15 +75,17 @@ const DescriptionHome = () => {
 
 const BannerAbout = () => {
   return (
-    <div
-      className="absolute inset-0"
-      style={{
-        backgroundImage: "url('/blog/images/banner-about.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
-      }}
-    ></div>
+    <picture>
+      <source
+        media="(max-width: 480px)"
+        srcSet="/blog/images/banner-about-xs.jpg"
+      />
+      <img
+        src="/blog/images/banner-about.jpg"
+        alt="banner"
+        className="absolute w-full h-full object-cover object-center"
+      />
+    </picture>
   );
 };
 
@@ -125,15 +129,17 @@ const DescriptionServices = () => {
 
 const BannerBlog = () => {
   return (
-    <div
-      className="absolute inset-0"
-      style={{
-        backgroundImage: "url('/blog/images/banner-blog.jpg')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        backgroundAttachment: "fixed",
-      }}
-    ></div>
+    <picture>
+      <source
+        media="(max-width: 480px)"
+        srcSet="/blog/images/banner-blog-xs.jpg"
+      />
+      <img
+        src="/blog/images/banner-blog.jpg"
+        alt="banner"
+        className="absolute w-full h-full object-cover object-center"
+      />
+    </picture>
   );
 };
 
@@ -249,7 +255,7 @@ const PromoBanner = ({ type = "HOME" }) => {
               </DescriptionText>
             )}
             {type === "BLOG" && (
-              <DescriptionText type="secondary">
+              <DescriptionText>
                 <DescriptionBlog />
               </DescriptionText>
             )}

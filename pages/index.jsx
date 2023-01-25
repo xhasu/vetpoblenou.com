@@ -3,20 +3,19 @@ import { Description, Headline } from "components/shared/headlines";
 import PromoBanner from "components/shared/promo-banner";
 import Reservation from "components/reservation";
 import { DecorRight } from "components/shared/decorations";
+import useTranslation from "hooks/useTranslation";
 
 const HomePage = () => {
+  const { t } = useTranslation();
+
   return (
     <div>
       <PromoBanner type="HOME" />
       <div className="container">
         <div className="grid md:grid-cols-2 gap-16 mb-20">
           <div className="text-primary text-left">
-            <Headline>40 años de compromiso y experiencia</Headline>
-            <Description>
-              Con 40 años de experiencia, nuestro equipo se mantiene en
-              constante formación, al corriente de los nuevos avances médicos,
-              para ofrecer una atención completa y de calidad.
-            </Description>
+            <Headline>{t("home.info[0].title")}</Headline>
+            <Description>{t("home.info[0].description")}</Description>
             <div>
               <picture>
                 <img src="/blog/images/animals.png" alt="" />
@@ -36,21 +35,11 @@ const HomePage = () => {
                 <img src="/blog/images/home-02.jpg" alt="" />
               </picture>
             </div>
-            <Headline>Planifica sus revisiones fácilmente</Headline>
-            <Description>
-              La clínica cuenta con servicios médicos internos y un equipo de
-              especialistas externos, lo que nos permite realizar pruebas
-              complementarias para confirmar nuestros diagnósticos con más
-              exactitud.
-            </Description>
+            <Headline>{t("home.info[2].title")}</Headline>
+            <Description>{t("home.info[2].description")}</Description>
           </div>
           <div className="text-primary">
-            <Description>
-              Sabemos que las mascotas son un miembro más de la familia, por
-              ello, te acompañamos en su cuidado, prevención y tratamiento de
-              enfermedades, aportando los medios necesarios para atenderles en
-              su día a día.
-            </Description>
+            <Description>{t("home.info[1].description")}</Description>
             <div className="mt-8 text-right">
               <picture>
                 <img

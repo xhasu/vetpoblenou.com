@@ -1,22 +1,45 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import Link from "next/link";
 import { LanguageContext } from "providers/language-provider";
 import useTranslation from "hooks/useTranslation";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const { t } = useTranslation();
   const [locale, setlocale] = useContext(LanguageContext);
 
   const localeClass = (local) => {
-    return locale === local ? "underline" : "";
+    return locale === local ? "underline !bg-primary" : "";
   };
+
+  const toggleMenu = () => {
+    setMenuOpen((prev) => !prev);
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
+
+  // class menu classes are used to hide the menu only on mobile
+  const classMenu = menuOpen ? "block" : "hidden lg:block";
 
   return (
     <div className="absolute top-0 left-0 right-0 z-10">
       <header className="relative px-4 lg:px-8 pt-6 lg:pt-10 flex justify-end">
         <nav className="text-white text-lg xl:text-2xl">
-          <div className="absolute right-4 top-full lg:top-0 lg:relative">
-            <ul className="flex flex-col lg:flex-row justify-end gap-4 lg:gap-8">
+          <div
+            className={`${classMenu} absolute lg:relative right-4 py-6 lg:py-0 top-full lg:top-0`}
+          >
+            <ul
+              className="flex flex-col lg:flex-row justify-end gap-4 lg:gap-8 text-right lg:text-left"
+              onClick={() => {
+                closeMenu();
+              }}
+            >
+              <li>
+                <Link href="/">{t("header.home")}</Link>
+              </li>
               <li>
                 <Link href="/about/">{t("header.about")}</Link>
               </li>
@@ -60,7 +83,12 @@ const Header = () => {
             EN
           </div>
         </div>
-        <div className="flex flex-col gap-2 cursor-pointer self-center ml-4 lg:hidden">
+        <div
+          className="flex flex-col gap-2 cursor-pointer self-center ml-4 lg:hidden"
+          onClick={() => {
+            toggleMenu();
+          }}
+        >
           <div className="h-0.5 w-8 bg-white"></div>
           <div className="h-0.5 w-8 bg-white"></div>
           <div className="h-0.5 w-8 bg-white"></div>
