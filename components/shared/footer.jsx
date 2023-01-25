@@ -59,7 +59,7 @@ const Footer = () => {
           <div>{t("footer.place")}</div>
           <span className="hidden md:block h-4 border-r border-white"></span>
           <div>
-            {t("footer.phone")}: <a href="tel:933008726">933 008 726</a> -{" "}
+            {t("footer.phone")} <a href="tel:933008726">933 008 726</a> -{" "}
             <a href="tel:696389578">696 389 578</a>
           </div>
           <span className="hidden md:block h-4 border-r border-white"></span>
