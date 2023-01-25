@@ -56,10 +56,10 @@ const Footer = () => {
         </div>
         <div className="mb-16 md:mb-32"></div>
         <div className="flex flex-col md:flex-row justify-center gap-4 items-center md:items-baseline mb-4 xl:text-2xl px-4">
-          <div>Camí Antic de València, 18 baixos, 08005 - Barcelona</div>
+          <div>{t("footer.place")}</div>
           <span className="hidden md:block h-4 border-r border-white"></span>
           <div>
-            Teléfono: <a href="tel:933008726">933 008 726</a> -{" "}
+            {t("footer.phone")}: <a href="tel:933008726">933 008 726</a> -{" "}
             <a href="tel:696389578">696 389 578</a>
           </div>
           <span className="hidden md:block h-4 border-r border-white"></span>

@@ -120,10 +120,12 @@ export const Lang = {
         motive: "Motivo",
       },
       button: "Reservar",
-      caption: "Parking: BSM, Rambla del Poblenou, 130 (1 hora gratuita)",
+      caption: "Parking: BSM, Rambla del Poblenou, 130 (1 hour free)",
     },
     footer: {
       title: "¿Quieres contactarnos?",
+      place: "Camí Antic de València, 18 baixos, 08005 - Barcelona",
+      phone: "Teléfono:",
     },
   },
   en: {
@@ -251,6 +253,8 @@ export const Lang = {
     },
     footer: {
       title: "Do you want to contact us?",
+      place: "Camí Antic de València, 18 baixos, 08005 - Barcelona",
+      phone: "Phone:",
     },
   },
   ca: {
@@ -373,10 +377,12 @@ export const Lang = {
         motive: "Motivo",
       },
       button: "Reservar",
-      caption: "Parking: BSM, Rambla del Poblenou, 130 (1 hora gratuita)",
+      caption: "Parking: BSM, Rambla del Poblenou, 130 (1 hora gratuïta)",
     },
     footer: {
       title: "Vols contactar-nos?",
+      place: "Camí Antic de València, 18 baixos, 08005 - Barcelona",
+      phone: "telèfon:",
     },
   },
 };
