@@ -49,7 +49,7 @@ const Reservation = () => {
                   id="date"
                   className="w-full border-2 border-black px-5 lg:px-10 py-4 lg:py-8 bg-transparent focus:outline-none"
                   type="date"
-                  placeholder="Fecha"
+                  placeholder={t("reservation.form.date.title")}
                   defaultValue={tomorrow.toISOString().split("T")[0]}
                   min={tomorrow.toISOString().split("T")[0]}
                 />
@@ -64,10 +64,14 @@ const Reservation = () => {
                   className="w-full border-2 border-black px-5 lg:px-10 py-4 lg:py-8 bg-transparent appearance-none focus:outline-none"
                 >
                   <option value="" className="hidden">
-                    Franja
+                    {t("reservation.form.time.title")}
                   </option>
-                  <option value="Mañana">Mañana</option>
-                  <option value="Tarde">Tarde</option>
+                  <option value="Mañana">
+                    {t("reservation.form.time.options.morning")}
+                  </option>
+                  <option value="Tarde">
+                    {t("reservation.form.time.options.afternoon")}
+                  </option>
                 </select>
               </div>
               <div className="relative flex-1">
@@ -80,12 +84,20 @@ const Reservation = () => {
                   className="w-full border-2 border-black px-5 lg:px-10 py-4 lg:py-8 bg-transparent appearance-none focus:outline-none"
                 >
                   <option value="" className="hidden">
-                    Motivo
+                    {t("reservation.form.motive.title")}
                   </option>
-                  <option value="Primera Visita">Primera Visita</option>
-                  <option value="Visita">Visita</option>
-                  <option value="Vacunación">Vacunación</option>
-                  <option value="Certificado/viajar">Certificado/viajar</option>
+                  <option value="Primera Visita">
+                    {t("reservation.form.motive.options.first")}
+                  </option>
+                  <option value="Visita">
+                    {t("reservation.form.motive.options.visit")}
+                  </option>
+                  <option value="Vacunación">
+                    {t("reservation.form.motive.options.vaccine")}
+                  </option>
+                  <option value="Certificado/viajar">
+                    {t("reservation.form.motive.options.health")}
+                  </option>
                 </select>
               </div>
               <div className="relative flex-1">
@@ -98,11 +110,17 @@ const Reservation = () => {
                   className="w-full border-2 border-black px-5 lg:px-10 py-4 lg:py-8 bg-transparent appearance-none focus:outline-none"
                 >
                   <option value="" className="hidden">
-                    Tipo de mascota
+                    {t("reservation.form.type.title")}
                   </option>
-                  <option value="Perro">Perro</option>
-                  <option value="Gato">Gato</option>
-                  <option value="Exótico">Animal Exótico</option>
+                  <option value="Perro">
+                    {t("reservation.form.type.options.dog")}
+                  </option>
+                  <option value="Gato">
+                    {t("reservation.form.type.options.cat")}
+                  </option>
+                  <option value="Exótico">
+                    {t("reservation.form.type.options.exotic")}
+                  </option>
                 </select>
               </div>
             </div>

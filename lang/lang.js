@@ -115,9 +115,33 @@ export const Lang = {
       description:
         "De lunes a viernes de 9 a 14 y de 17 a 20 horas, sábados de 10 a 14 horas. Nuestro centro cierra los días festivos oficiales en Barcelona.",
       form: {
-        date: "Fecha",
-        time: "Franja",
-        motive: "Motivo",
+        date: {
+          title: "Fecha",
+        },
+        time: {
+          title: "Franja",
+          options: {
+            morning: "Mañana",
+            afternoon: "Tarde",
+          },
+        },
+        motive: {
+          title: "Motivo",
+          options: {
+            first: "Primera visita",
+            visit: "Visita",
+            vaccine: "Vacunación",
+            health: "Certificado/viajar",
+          },
+        },
+        type: {
+          title: "Tipo de mascota",
+          options: {
+            dog: "Perro",
+            cat: "Gato",
+            exotic: "Animal Exótico",
+          },
+        },
       },
       button: "Reservar",
       caption: "Parking: BSM, Rambla del Poblenou, 130 (1 hour free)",
@@ -244,9 +268,33 @@ export const Lang = {
       description:
         "From Monday to Friday from 9 to 14 and from 17 to 20 hours, Saturdays from 10 to 14 hours. Our center closes on official holidays in Barcelona.",
       form: {
-        date: "Fecha",
-        time: "Franja",
-        motive: "Motivo",
+        date: {
+          title: "Date",
+        },
+        time: {
+          title: "Time Slot",
+          options: {
+            morning: "Morning",
+            afternoon: "Afternoon",
+          },
+        },
+        motive: {
+          title: "Appointment type",
+          options: {
+            first: "First visit",
+            visit: "Visit",
+            vaccine: "Vaccination",
+            health: "Veterinary health certificate / pet travel",
+          },
+        },
+        type: {
+          title: "Pet type",
+          options: {
+            dog: "Dog",
+            cat: "Cat",
+            exotic: "Exotic",
+          },
+        },
       },
       button: "Reservation",
       caption: "",
@@ -372,9 +420,33 @@ export const Lang = {
       description:
         "De dilluns a divendres de 9 a 14 i de 17 a 20 hores dissabtes de 10 a 14 hores. El nostre centre tanca els dies festius oficials a Barcelona.",
       form: {
-        date: "Fecha",
-        time: "Franja",
-        motive: "Motivo",
+        date: {
+          title: "Date",
+        },
+        time: {
+          title: "Franja horària",
+          options: {
+            morning: "Morning",
+            afternoon: "Afternoon",
+          },
+        },
+        motive: {
+          title: "Motiu",
+          options: {
+            first: "Primera visita",
+            visit: "Visita",
+            vaccine: "Vacunaciò",
+            health: "Certificat / viatge",
+          },
+        },
+        type: {
+          title: "Tipus de mascota",
+          options: {
+            dog: "Gos",
+            cat: "Gat",
+            exotic: "Animal exótic",
+          },
+        },
       },
       button: "Reservar",
       caption: "Parking: BSM, Rambla del Poblenou, 130 (1 hora gratuïta)",
