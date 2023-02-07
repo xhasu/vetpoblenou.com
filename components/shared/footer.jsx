@@ -29,7 +29,7 @@ const Footer = () => {
           <span className="hidden md:block h-4 border-r border-white"></span>
           <a
             className="px-4 flex items-center gap-2 mb-2"
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/clinica_veterinaria_poblenou/"
             target="_blank"
             rel="noreferrer noopener"
           >
@@ -38,7 +38,7 @@ const Footer = () => {
           <span className="hidden md:block h-4 border-r border-white"></span>
           <a
             className="px-4 flex items-center gap-2 mb-2"
-            href="https://wa.me/34933008726"
+            href="https://wa.me/34696389578"
             target="_blank"
             rel="noreferrer noopener"
           >

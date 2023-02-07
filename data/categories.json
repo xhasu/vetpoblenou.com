@@ -1,0 +1,1106 @@
+[
+  {
+    "id": 36,
+    "count": 1,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/adopciones-de-pequenos-mamiferos\/",
+    "name": "Adopciones de pequeños mamiferos",
+    "slug": "adopciones-de-pequenos-mamiferos",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/36"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=36"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "count": 9,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/adopciones-de-perros-y-gatos\/",
+    "name": "Adopciones de perros y gatos",
+    "slug": "adopciones-de-perros-y-gatos",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/15"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=15"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 37,
+    "count": 4,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/animales-exoticos\/",
+    "name": "Animales exóticos",
+    "slug": "animales-exoticos",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/37"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=37"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "count": 60,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/comportamiento\/",
+    "name": "Comportamiento",
+    "slug": "comportamiento",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/16"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=16"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "count": 10,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/compra-de-mascotas\/",
+    "name": "Compra de mascotas",
+    "slug": "compra-de-mascotas",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/40"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=40"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 46,
+    "count": 4,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/cuando-nos-dicen-adios\/",
+    "name": "Cuando nos dicen adios",
+    "slug": "cuando-nos-dicen-adios",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/46"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=46"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "count": 10,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/cultura\/",
+    "name": "Cultura",
+    "slug": "cultura",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/33"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=33"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 8,
+    "count": 2,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/desparasitaciones\/",
+    "name": "Desparasitaciones",
+    "slug": "desparasitaciones",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/8"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=8"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 38,
+    "count": 19,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/educacion-canina\/",
+    "name": "Educación canina",
+    "slug": "educacion-canina",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/38"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=38"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 10,
+    "count": 151,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/desparasitaciones\/gatos-desparasitaciones\/",
+    "name": "Gatos",
+    "slug": "gatos-desparasitaciones",
+    "taxonomy": "category",
+    "parent": 8,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/10"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/8"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=10"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 42,
+    "count": 1,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/golosinas\/",
+    "name": "Golosinas",
+    "slug": "golosinas",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/42"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=42"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "count": 12,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/humor\/",
+    "name": "Humor",
+    "slug": "humor",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/12"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=12"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 41,
+    "count": 8,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/juego\/",
+    "name": "Juego",
+    "slug": "juego",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/41"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=41"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 27,
+    "count": 107,
+    "description": "Saber el lenguaje de nuestras mascotas va a ayudarnos a com unicarnos con ellas",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/prevencion\/manejo\/",
+    "name": "Manejo",
+    "slug": "manejo",
+    "taxonomy": "category",
+    "parent": 26,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/27"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/26"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=27"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 11,
+    "count": 85,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/noticias-de-interes\/",
+    "name": "Notícias de Interés",
+    "slug": "noticias-de-interes",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/11"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=11"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "count": 4,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/salud\/perrosalud\/",
+    "name": "perro,salud",
+    "slug": "perrosalud",
+    "taxonomy": "category",
+    "parent": 31,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/1"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/31"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=1"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "count": 135,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/vacunaciones\/perros\/",
+    "name": "Perros",
+    "slug": "perros",
+    "taxonomy": "category",
+    "parent": 4,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/5"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "up": [
+        {
+          "embeddable": true,
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/4"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=5"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 26,
+    "count": 40,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/prevencion\/",
+    "name": "Prevención",
+    "slug": "prevencion",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/26"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=26"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 39,
+    "count": 25,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/proteccion-animal\/",
+    "name": "Protección animal",
+    "slug": "proteccion-animal",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/39"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=39"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 32,
+    "count": 59,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/recomendaciones\/",
+    "name": "Recomendaciones",
+    "slug": "recomendaciones",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/32"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=32"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 31,
+    "count": 66,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/salud\/",
+    "name": "Salud",
+    "slug": "salud",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/31"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=31"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "count": 2,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/sobre-nosotras\/",
+    "name": "Sobre nosotras",
+    "slug": "sobre-nosotras",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/13"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=13"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 34,
+    "count": 2,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/tecnologias\/",
+    "name": "Tecnologías",
+    "slug": "tecnologias",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/34"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=34"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 7,
+    "count": 7,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/tramites-legales\/",
+    "name": "Trámites Legales",
+    "slug": "tramites-legales",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/7"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=7"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "count": 2,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/vacunaciones\/",
+    "name": "Vacunaciones",
+    "slug": "vacunaciones",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/4"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=4"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "count": 24,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/viajar\/",
+    "name": "Viajar",
+    "slug": "viajar",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/14"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=14"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 30,
+    "count": 34,
+    "description": "",
+    "link": "https:\/\/vetpoblenou.com\/blog\/category\/videos\/",
+    "name": "Videos",
+    "slug": "videos",
+    "taxonomy": "category",
+    "parent": 0,
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories\/30"
+        }
+      ],
+      "collection": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/categories"
+        }
+      ],
+      "about": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/taxonomies\/category"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https:\/\/vetpoblenou.com\/blog\/wp-json\/wp\/v2\/posts?categories=30"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https:\/\/api.w.org\/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

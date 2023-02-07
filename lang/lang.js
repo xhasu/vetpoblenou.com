@@ -144,7 +144,7 @@ export const Lang = {
         },
       },
       button: "Reservar",
-      caption: "Parking: BSM, Rambla del Poblenou, 130 (1 hour free)",
+      caption: "Parking: BSM, Rambla del Poblenou, 130 (1 hora gratuita)",
     },
     footer: {
       title: "¿Quieres contactarnos?",
@@ -297,7 +297,7 @@ export const Lang = {
         },
       },
       button: "Reservation",
-      caption: "",
+      caption: "Parking: BSM, Rambla del Poblenou, 130 (1 hour free)",
     },
     footer: {
       title: "Do you want to contact us?",

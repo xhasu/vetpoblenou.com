@@ -2,6 +2,7 @@ import { useContext, useState } from "react";
 import Link from "next/link";
 import { LanguageContext } from "providers/language-provider";
 import useTranslation from "hooks/useTranslation";
+import Categories from "components/categories";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -32,7 +33,7 @@ const Header = () => {
             className={`${classMenu} absolute lg:relative right-4 py-6 lg:py-0 top-full lg:top-0`}
           >
             <ul
-              className="flex flex-col lg:flex-row justify-end gap-4 lg:gap-8 text-right lg:text-left"
+              className="flex flex-col lg:flex-row items-end justify-end gap-3 lg:gap-8 text-right lg:text-left"
               onClick={() => {
                 closeMenu();
               }}
@@ -46,8 +47,11 @@ const Header = () => {
               <li>
                 <Link href="/services/">{t("header.services")}</Link>
               </li>
-              <li>
+              <li className="relative border-b-2 lg:border-transparent hover:border-white group justify-self-end">
                 <Link href="/blog/">{t("header.blog")}</Link>
+                <div className="block lg:hidden group-hover:block">
+                  <Categories />
+                </div>
               </li>
               <li className="hidden lg:block">
                 <div className="flex gap-2">

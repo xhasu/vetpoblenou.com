@@ -161,7 +161,7 @@ const PromoBanner = ({ type = "HOME" }) => {
   };
 
   return (
-    <div className="relative bg-neutral-600 max-h-[1080px] h-screen z-0 mb-20 xl:mb-36">
+    <div className="relative bg-neutral-600 max-h-[1080px] h-screen z-0 mb-12 xl:mb-20">
       <div className="absolute inset-0 z-0">
         {type === "HOME" && <BannerHome />}
         {type === "ABOUT" && <BannerAbout />}
@@ -182,7 +182,7 @@ const PromoBanner = ({ type = "HOME" }) => {
         </Link>
       </div>
 
-      <div className="absolute right-8 bottom-1/3 xl:bottom-8 z-10">
+      <div className="absolute right-8 bottom-1/4 xl:bottom-8 z-10">
         <div className="flex flex-col gap-4">
           {/* send text message to whatsapp in spain 933008726 */}
           <a

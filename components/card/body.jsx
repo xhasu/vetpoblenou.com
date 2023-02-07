@@ -49,7 +49,7 @@ const CardBody = ({ data = {} }) => {
       <div className="border-dashed border-b-2 border-black mb-4"></div>
       {/* render html */}
       <div
-        className="lg:text-xl mb-6 text-neutral-600"
+        className="lg:text-xl mb-6 text-neutral-600 break-words min-w-0"
         dangerouslySetInnerHTML={{ __html: excerpt }}
       ></div>
       <a

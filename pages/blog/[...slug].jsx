@@ -1,5 +1,7 @@
 import axios from "axios";
 import { createArticleAdapter } from "adapters/article";
+import http from "http";
+import Categories from "data/categories.json";
 
 const Article = ({ post = {} }) => {
   const {
@@ -54,42 +56,50 @@ const Article = ({ post = {} }) => {
 
 export default Article;
 
+// create axios instance with keep alive and timeout 5 minutes
+const WP = axios.create({
+  timeout: 300000,
+  httpAgent: new http.Agent({
+    keepAlive: true,
+    keepAliveMsecs: 300000,
+  }),
+});
+
 export async function getStaticPaths() {
   const apiUrl = process.env.WORDPRESS_API_URL;
 
   // fetch posts from wordpress api using axios
   const url = `${apiUrl}/wp/v2/posts`;
-  const res = await axios.get(url);
+  const res = await WP.get(url);
   const posts = await res.data;
-  // const headers = res.headers;
+  const headers = res.headers;
 
   // get total pages in number
-  // const totalPages = parseInt(headers["x-wp-totalpages"]);
-  const totalPages = 3; // for testing only
+  const totalPages = parseInt(headers["x-wp-totalpages"]);
+  // const totalPages = 10; // for testing only
+  const pageOffset = 0; // for testing only
 
-  console.log("Total pages: ", totalPages);
+  // console.log("Total pages: ", totalPages);
 
   // create array length from total pages in nodejs
   const arr = Array.from(Array(totalPages - 1).keys());
-  console.log("Arr length", arr.length);
 
   // fetch next pages
   const totalPost = await Promise.all(
     arr.map(async (_, i) => {
-      const res = await axios.get(url, {
+      const res = await WP.get(url, {
         params: {
-          page: i + 2,
+          page: i + 2 + pageOffset,
         },
       });
       const posts = await res.data;
-      console.log("Page: ", i + 2, " - ", posts.length, " posts");
       return posts;
     })
   );
 
   // flatten array
   const allPosts = totalPost.reduce((acc, val) => acc.concat(val), posts);
-  console.log("Total posts: ", allPosts.length);
+  // console.log("Total posts: ", allPosts.length);
 
   // get paths from posts
   const paths = allPosts.map((post) => {
@@ -119,44 +129,70 @@ export async function getStaticProps(context) {
   // set path using last item of slug
   const path = slug[slug.length - 1];
 
+  // let post_categories = [];
+  let post = {};
+
   // fetch posts from wordpress api using axios
-  const res = await axios.get(`${apiUrl}/wp/v2/posts`, {
-    params: {
-      slug: path,
-    },
-  });
-  const posts = await res.data;
+  try {
+    const res = await WP.get(`${apiUrl}/wp/v2/posts`, {
+      params: {
+        slug: path,
+      },
+    });
+    const posts = await res.data;
 
-  // get first post
-  const post = posts[0];
+    // get first post
+    post = posts[0];
+    // post_categories = post.categories;
+  } catch (error) {
+    console.log("############# Error post #########");
+    return {
+      notFound: true,
+    };
+    // console.log(error);
+    // console.log(path);
+  }
 
-  const post_categories = post.categories;
+  // // fetch categories from wordpress api using axios
+  // let categories = [];
+  // try {
+  //   const res_categories = await WP.get(`${apiUrl}/wp/v2/categories`, {
+  //     params: {
+  //       include: post_categories,
+  //     },
+  //   });
 
-  // fetch categories from wordpress api using axios
-  const res_categories = await axios.get(`${apiUrl}/wp/v2/categories`, {
-    params: {
-      include: post_categories,
-    },
-  });
+  //   categories = await res_categories.data;
+  // } catch (error) {
+  //   // console.log("Error");
+  //   // console.log(error);
+  // }
 
-  const categories = await res_categories.data;
-
-  const category = categories.find((c) => c.id === post.categories[0]);
-  post.subtype = category.name;
+  const category = Categories.find((c) => c.id === post.categories[0]);
+  post.subtype = category.name || "#";
 
   const post_feature_media = post.featured_media;
 
   // fetch media from wordpress api using axios
-  const res_media = await axios.get(`${apiUrl}/wp/v2/media`, {
-    params: {
-      include: post_feature_media,
-    },
-  });
+  let media = [];
+  try {
+    const res_media = await WP.get(`${apiUrl}/wp/v2/media`, {
+      params: {
+        include: post_feature_media,
+      },
+    });
 
-  const media = await res_media.data;
+    media = await res_media.data;
+  } catch (error) {
+    console.log("############# Error media #########");
+    return {
+      notFound: true,
+    };
+  }
 
   const feature_media = media.find((m) => m.id === post.featured_media) || {};
   post.promo_item = feature_media.source_url || "";
+  post.promo_item = "";
 
   return {
     props: {
