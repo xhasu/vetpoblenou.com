@@ -16,18 +16,20 @@ const Reservation = () => {
     const franja = document.querySelector("#franja").value;
     const motivo = document.querySelector("#motivo").value;
     const tipo_mascota = document.querySelector("#tipo_mascota").value;
+    const email = document.querySelector("#email").value;
+    const phone = document.querySelector("#phone").value;
 
     // set email subject and body
     const subject = `Cita website`;
-    const body = `Cita ${motivo} ${date} ${franja} ${tipo_mascota}`;
+    const body = `Cita ${motivo} ${date} ${franja} ${tipo_mascota} - ${email} - ${phone}`;
 
     // set email href
-    const email = document.querySelector("a");
-    email.target = "_blank";
-    email.href = `mailto:clinica@vetpoblenou.com?subject=${subject}&body=${body}`;
+    const emailLink = document.querySelector("a");
+    emailLink.target = "_blank";
+    emailLink.href = `mailto:clinica@vetpoblenou.com?subject=${subject}&body=${body}`;
 
     // send email
-    email.click();
+    emailLink.click();
   };
 
   return (
@@ -43,7 +45,7 @@ const Reservation = () => {
         </div>
         <div>
           <form method="" noValidate>
-            <div className="flex flex-col lg:flex-row gap-4 mb-8 lg:mb-20 text-2xl">
+            <div className="flex flex-col lg:flex-row gap-4 mb-8 lg:mb-10 text-2xl">
               <div className="relative flex-1">
                 <input
                   id="date"
@@ -100,6 +102,8 @@ const Reservation = () => {
                   </option>
                 </select>
               </div>
+            </div>
+            <div className="flex flex-col lg:flex-row gap-4 mb-8 lg:mb-20 text-2xl">
               <div className="relative flex-1">
                 <div className="absolute right-2 xl:right-6 top-0 bottom-0 flex items-center pointer-events-none select-none">
                   <IconChevronDown className="h-8 w-8" />
@@ -122,6 +126,27 @@ const Reservation = () => {
                     {t("reservation.form.type.options.exotic")}
                   </option>
                 </select>
+              </div>
+              <div className="relative flex-1">
+                <input
+                  className="w-full border-2 border-black px-5 lg:px-10 py-4 lg:py-8 bg-transparent focus:outline-none"
+                  type="email"
+                  id="email"
+                  maxLength={50}
+                  placeholder={t("reservation.form.email.title")}
+                  required
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                />
+              </div>
+              <div className="relative flex-1">
+                <input
+                  className="w-full border-2 border-black px-5 lg:px-10 py-4 lg:py-8 bg-transparent focus:outline-none"
+                  type="number"
+                  id="phone"
+                  maxLength={20}
+                  placeholder={t("reservation.form.phone.title")}
+                  required
+                />
               </div>
             </div>
             <div className="text-center mb-24">

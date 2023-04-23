@@ -142,6 +142,12 @@ export const Lang = {
             exotic: "Animal Exótico",
           },
         },
+        email: {
+          title: "Correo electrónico",
+        },
+        phone: {
+          title: "Teléfono",
+        },
       },
       button: "Reservar",
       caption: "Parking: BSM, Rambla del Poblenou, 130 (1 hora gratuita)",
@@ -295,6 +301,12 @@ export const Lang = {
             exotic: "Exotic",
           },
         },
+        email: {
+          title: "Email",
+        },
+        phone: {
+          title: "Phone",
+        },
       },
       button: "Reservation",
       caption: "Parking: BSM, Rambla del Poblenou, 130 (1 hour free)",
@@ -446,6 +458,12 @@ export const Lang = {
             cat: "Gat",
             exotic: "Animal exótic",
           },
+        },
+        email: {
+          title: "Correu electrònic",
+        },
+        phone: {
+          title: "Telèfon",
         },
       },
       button: "Reservar",

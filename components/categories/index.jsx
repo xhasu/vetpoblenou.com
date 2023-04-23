@@ -1,7 +1,10 @@
 import Data from "/data/categories.json";
 
 const Categories = () => {
-  const ids = [10, 5, 37, 11, 16, 26, 15, 7];
+  const ids = [
+    10, 5, 37, 11, 16, 26, 15, 7, 36, 40, 46, 38, 32, 31, 4, 7, 27, 14, 39, 30,
+    8, 41, 11, 30, 33,
+  ];
 
   return (
     <div className="absolute top-full right-0 lg:left-0 lg:right-auto p-0">
